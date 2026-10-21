@@ -1,11 +1,9 @@
 # Wei-Lun Li
 
-Software engineer in Tokyo. I build AI-driven tools — from MCP servers
-to an automated short-video studio.
+Software engineer in Tokyo working on backend performance and reliability.
+In my own time I build developer tools: MCP servers, LLM-agent workflows
+and desktop apps.
 
-- 🎬 **Weilun Studio** — a one-person, AI-native media studio. Claude Code runs
-  the production pipeline behind 奇聞蒐藏室 (YouTube) and 豆柴こつぶ (Instagram):
-  400+ videos, 11.8M+ views. → [weilunli.me/studio](https://weilunli.me/studio/)
 - 🌏 Chinese (native) · Japanese (JLPT N1) · English
 
 ## Projects
