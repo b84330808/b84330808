@@ -30,6 +30,7 @@ and desktop apps.
 | [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) | ★ 41k | [fix(VTextarea): keep native undo history with auto-grow](https://github.com/vuetifyjs/vuetify/pull/23279) |
 | [BYVoid/OpenCC](https://github.com/BYVoid/OpenCC) | ★ 10k | [s2twp：不再將「支持」一律轉為「支援」（#1313）](https://github.com/BYVoid/OpenCC/pull/1510)<br>[s2twp：不再將「高級」一律轉為「高階」（#1313）](https://github.com/BYVoid/OpenCC/pull/1509) |
 | [VOICEVOX/voicevox](https://github.com/VOICEVOX/voicevox) | ★ 3.3k | [ci: actionlintを導入し、指摘されたワークフローの問題を修正する](https://github.com/VOICEVOX/voicevox/pull/3156) |
+| [un-ts/eslint-plugin-import-x](https://github.com/un-ts/eslint-plugin-import-x) | ★ 778 | [fix(no-cycle): detect cycles through side-effect imports](https://github.com/un-ts/eslint-plugin-import-x/pull/538) |
 | [run-llama/llama-agents](https://github.com/run-llama/llama-agents) | ★ 460 | [Don't report idle while sent events are undelivered](https://github.com/run-llama/llama-agents/pull/817) |
 
 <sub>Updated daily by a GitHub Action. [All my merged pull requests →](https://github.com/pulls?q=is%3Apr+author%3Ab84330808+is%3Amerged+-user%3Ab84330808)</sub>
