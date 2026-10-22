@@ -28,10 +28,14 @@ and desktop apps.
 | [laurent22/joplin](https://github.com/laurent22/joplin) | ★ 57k | [All: Translation: Update zh_TW.po](https://github.com/laurent22/joplin/pull/16853) |
 | [prettier/prettier](https://github.com/prettier/prettier) | ★ 52k | [Add tests for NO-BREAK SPACE next to CJK in Markdown](https://github.com/prettier/prettier/pull/20321) |
 | [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) | ★ 41k | [fix(VTextarea): keep native undo history with auto-grow](https://github.com/vuetifyjs/vuetify/pull/23279) |
+| [rollup/rollup](https://github.com/rollup/rollup) | ★ 26k | [Merge synthetic named exports into static namespaces when preserving modules](https://github.com/rollup/rollup/pull/6589) |
 | [BYVoid/OpenCC](https://github.com/BYVoid/OpenCC) | ★ 10k | [s2twp：不再將「支持」一律轉為「支援」（#1313）](https://github.com/BYVoid/OpenCC/pull/1510)<br>[s2twp：不再將「高級」一律轉為「高階」（#1313）](https://github.com/BYVoid/OpenCC/pull/1509) |
+| [mui/mui-x](https://github.com/mui/mui-x) | ★ 5.9k | [[pickers] Only scroll the Digital Clock when its active item changes](https://github.com/mui/mui-x/pull/23942) |
+| [chakra-ui/zag](https://github.com/chakra-ui/zag) | ★ 5.2k | [fix(tree-view, listbox): let lowercase a reach typeahead](https://github.com/chakra-ui/zag/pull/3509) |
+| [honkit/honkit](https://github.com/honkit/honkit) | ★ 3.5k | [fix: use structure.readme as index.html when README.md also exists](https://github.com/honkit/honkit/pull/535) |
 | [VOICEVOX/voicevox](https://github.com/VOICEVOX/voicevox) | ★ 3.3k | [ci: actionlintを導入し、指摘されたワークフローの問題を修正する](https://github.com/VOICEVOX/voicevox/pull/3156) |
 | [un-ts/eslint-plugin-import-x](https://github.com/un-ts/eslint-plugin-import-x) | ★ 778 | [fix(no-cycle): detect cycles through side-effect imports](https://github.com/un-ts/eslint-plugin-import-x/pull/538) |
-| [run-llama/llama-agents](https://github.com/run-llama/llama-agents) | ★ 460 | [Don't report idle while sent events are undelivered](https://github.com/run-llama/llama-agents/pull/817) |
+| [run-llama/llama-agents](https://github.com/run-llama/llama-agents) | ★ 462 | [Don't report idle while sent events are undelivered](https://github.com/run-llama/llama-agents/pull/817) |
 
 <sub>Updated daily by a GitHub Action. [All my merged pull requests →](https://github.com/pulls?q=is%3Apr+author%3Ab84330808+is%3Amerged+-user%3Ab84330808)</sub>
 <!-- contributions:end -->
