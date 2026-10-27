@@ -31,9 +31,15 @@ and desktop apps.
 | [mantinedev/mantine](https://github.com/mantinedev/mantine) | ★ 32k | [[@mantine/hooks] use-mask: Fix generatePattern output being rejected by browsers for masks with # token](https://github.com/mantinedev/mantine/pull/9326) |
 | [recharts/recharts](https://github.com/recharts/recharts) | ★ 28k | [fix(ErrorBar): clip error bars with their graphical item](https://github.com/recharts/recharts/pull/8054)<br>[fix(LabelList): skip labels of elements outside the clipped domain](https://github.com/recharts/recharts/pull/8051) |
 | [rollup/rollup](https://github.com/rollup/rollup) | ★ 26k | [Merge synthetic named exports into static namespaces when preserving modules](https://github.com/rollup/rollup/pull/6589) |
+| [pypa/pipenv](https://github.com/pypa/pipenv) | ★ 25k | [Read and write the Pipfile as UTF-8 everywhere](https://github.com/pypa/pipenv/pull/6756) |
+| [plotly/dash](https://github.com/plotly/dash) | ★ 24k | [Decode the pages router pathname before matching it](https://github.com/plotly/dash/pull/4074) |
+| [jsdom/jsdom](https://github.com/jsdom/jsdom) | ★ 22k | [Fix template elements in XHTML: prefixed parsing and innerHTML](https://github.com/jsdom/jsdom/pull/4408) |
 | [video-dev/hls.js](https://github.com/video-dev/hls.js) | ★ 17k | [Load the start fragment again when its request is aborted before anything is buffered](https://github.com/video-dev/hls.js/pull/8115) |
+| [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | ★ 16k | [fix(sarif): set the log version to 2.1.0](https://github.com/ast-grep/ast-grep/pull/3035) |
 | [Y2Z/monolith](https://github.com/Y2Z/monolith) | ★ 16k | [fix: treat Windows drive-letter paths as local files](https://github.com/Y2Z/monolith/pull/541) |
 | [apexcharts/apexcharts.js](https://github.com/apexcharts/apexcharts.js) | ★ 15k | [fix(dumbbell): don't draw end dots for a null row](https://github.com/apexcharts/apexcharts.js/pull/5357) |
+| [jackc/pgx](https://github.com/jackc/pgx) | ★ 14k | [pgconn: read the default service file from %APPDATA%\postgresql on Windows](https://github.com/jackc/pgx/pull/2697) |
+| [plasma-umass/scalene](https://github.com/plasma-umass/scalene) | ★ 14k | [Save %%scalene cells as UTF-8](https://github.com/plasma-umass/scalene/pull/1106) |
 | [fuma-nama/fumadocs](https://github.com/fuma-nama/fumadocs) | ★ 13k | [fix(openapi, asyncapi): resolve index card links from the output directory](https://github.com/fuma-nama/fumadocs/pull/3752) |
 | [orhun/git-cliff](https://github.com/orhun/git-cliff) | ★ 12k | [fix(args): scope --workdir to its directory on Windows](https://github.com/orhun/git-cliff/pull/1657) |
 | [Milkdown/milkdown](https://github.com/Milkdown/milkdown) | ★ 12k | [fix(preset-commonmark): keep remarkLineBreak linear on long runs of spaces](https://github.com/Milkdown/milkdown/pull/2504) |
@@ -51,7 +57,7 @@ and desktop apps.
 | [VOICEVOX/voicevox](https://github.com/VOICEVOX/voicevox) | ★ 3.3k | [ci: actionlintを導入し、指摘されたワークフローの問題を修正する](https://github.com/VOICEVOX/voicevox/pull/3156) |
 | [kevin1024/vcrpy](https://github.com/kevin1024/vcrpy) | ★ 3k | [Match urlencoded parameter names in filter_post_data_parameters](https://github.com/kevin1024/vcrpy/pull/1066) |
 | [est31/cargo-udeps](https://github.com/est31/cargo-udeps) | ★ 2.1k | [Don't warn about duplicates when a dependency is listed per target](https://github.com/est31/cargo-udeps/pull/343) |
-| [un-ts/eslint-plugin-import-x](https://github.com/un-ts/eslint-plugin-import-x) | ★ 780 | [fix(no-cycle): detect cycles through side-effect imports](https://github.com/un-ts/eslint-plugin-import-x/pull/538) |
+| [un-ts/eslint-plugin-import-x](https://github.com/un-ts/eslint-plugin-import-x) | ★ 781 | [fix(no-cycle): detect cycles through side-effect imports](https://github.com/un-ts/eslint-plugin-import-x/pull/538) |
 | [run-llama/llama-agents](https://github.com/run-llama/llama-agents) | ★ 462 | [Don't report idle while sent events are undelivered](https://github.com/run-llama/llama-agents/pull/817) |
 | [Migushthe2nd/MsEdgeTTS](https://github.com/Migushthe2nd/MsEdgeTTS) | ★ 346 | [docs: clarify toFile() output files and where prosody options go](https://github.com/Migushthe2nd/MsEdgeTTS/pull/40) |
 
