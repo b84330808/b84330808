@@ -8,6 +8,8 @@ const START = '<!-- contributions:start -->'
 const END = '<!-- contributions:end -->'
 // Pull requests to leave out, as owner/repo#number
 const EXCLUDE = new Set(['morr/jquery.appear#60'])
+// Projects shown in the table; the rest go into a collapsed list below it
+const TOP = 20
 
 const QUERY = `query ($q: String!, $after: String) {
   search(query: $q, type: ISSUE, first: 100, after: $after) {
@@ -79,12 +81,26 @@ function render(pullRequests) {
       return `| [${repo.nameWithOwner}](${repo.url}) | ★ ${formatStars(repo.stargazerCount)} | ${links} |`
     })
 
+  const header = ['| Project | Stars | Merged pull requests |', '|---|---|---|']
+  const more = rows.slice(TOP)
+
   return [
     START,
-    '| Project | Stars | Merged pull requests |',
-    '|---|---|---|',
-    ...rows,
+    ...header,
+    ...rows.slice(0, TOP),
     '',
+    ...(more.length
+      ? [
+          '<details>',
+          `<summary>${more.length} more projects</summary>`,
+          '',
+          ...header,
+          ...more,
+          '',
+          '</details>',
+          '',
+        ]
+      : []),
     `<sub>Updated daily by a GitHub Action. [All my merged pull requests →](https://github.com/pulls?q=is%3Apr+author%3A${USER}+is%3Amerged+-user%3A${USER})</sub>`,
     END,
   ].join('\n')
