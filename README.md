@@ -25,7 +25,8 @@ and desktop apps.
 | Project | Stars | Merged pull requests |
 |---|---|---|
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | ★ 157k | [i18n: complete zh-TW translation and replace Mainland terms](https://github.com/open-webui/open-webui/pull/32482) |
-| [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | ★ 69k | [`@remotion/cli`: Accept `--props` files saved with a UTF-8 BOM](https://github.com/remotion-dev/remotion/pull/12645) |
+| [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) | ★ 82k | [JsonWriter writes NaN and infinite values as invalid JSON](https://github.com/spring-projects/spring-boot/pull/52477) |
+| [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | ★ 69k | [`@remotion/paths`: Fix `getBoundingBox()` for curves starting with a flat tangent](https://github.com/remotion-dev/remotion/pull/12687)<br>[`@remotion/cli`: Accept `--props` files saved with a UTF-8 BOM](https://github.com/remotion-dev/remotion/pull/12645) |
 | [laurent22/joplin](https://github.com/laurent22/joplin) | ★ 57k | [All: Translation: Update zh_TW.po](https://github.com/laurent22/joplin/pull/16853) |
 | [prettier/prettier](https://github.com/prettier/prettier) | ★ 52k | [Add tests for NO-BREAK SPACE next to CJK in Markdown](https://github.com/prettier/prettier/pull/20321) |
 | [skylot/jadx](https://github.com/skylot/jadx) | ★ 51k | [fix(core): use Locale.ROOT for case conversion of names](https://github.com/skylot/jadx/pull/3037) |
@@ -43,22 +44,23 @@ and desktop apps.
 | [jsdom/jsdom](https://github.com/jsdom/jsdom) | ★ 22k | [Fix template elements in XHTML: prefixed parsing and innerHTML](https://github.com/jsdom/jsdom/pull/4408) |
 | [video-dev/hls.js](https://github.com/video-dev/hls.js) | ★ 17k | [Load the start fragment again when its request is aborted before anything is buffered](https://github.com/video-dev/hls.js/pull/8115) |
 | [hubotio/hubot](https://github.com/hubotio/hubot) | ★ 17k | [fix(create): install the default scripts on Windows](https://github.com/hubotio/hubot/pull/1840) |
-| [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | ★ 16k | [fix(sarif): set the log version to 2.1.0](https://github.com/ast-grep/ast-grep/pull/3035) |
 
 <details>
-<summary>28 more projects</summary>
+<summary>31 more projects</summary>
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
+| [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | ★ 16k | [fix(sarif): set the log version to 2.1.0](https://github.com/ast-grep/ast-grep/pull/3035) |
 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | ★ 16k | [fix(tensor): return fewer chunks instead of panicking in `chunk`](https://github.com/tracel-ai/burn/pull/6263) |
 | [Y2Z/monolith](https://github.com/Y2Z/monolith) | ★ 16k | [fix: treat Windows drive-letter paths as local files](https://github.com/Y2Z/monolith/pull/541) |
 | [apexcharts/apexcharts.js](https://github.com/apexcharts/apexcharts.js) | ★ 15k | [fix(dumbbell): don't draw end dots for a null row](https://github.com/apexcharts/apexcharts.js/pull/5357) |
 | [jackc/pgx](https://github.com/jackc/pgx) | ★ 14k | [pgconn: read the default service file from %APPDATA%\postgresql on Windows](https://github.com/jackc/pgx/pull/2697) |
 | [plasma-umass/scalene](https://github.com/plasma-umass/scalene) | ★ 14k | [Save %%scalene cells as UTF-8](https://github.com/plasma-umass/scalene/pull/1106) |
-| [fuma-nama/fumadocs](https://github.com/fuma-nama/fumadocs) | ★ 13k | [fix(openapi, asyncapi): resolve index card links from the output directory](https://github.com/fuma-nama/fumadocs/pull/3752) |
+| [fuma-nama/fumadocs](https://github.com/fuma-nama/fumadocs) | ★ 14k | [fix(openapi, asyncapi): resolve index card links from the output directory](https://github.com/fuma-nama/fumadocs/pull/3752) |
 | [orhun/git-cliff](https://github.com/orhun/git-cliff) | ★ 12k | [fix(args): scope --workdir to its directory on Windows](https://github.com/orhun/git-cliff/pull/1657) |
 | [Milkdown/milkdown](https://github.com/Milkdown/milkdown) | ★ 12k | [fix(preset-commonmark): keep remarkLineBreak linear on long runs of spaces](https://github.com/Milkdown/milkdown/pull/2504) |
 | [dbcli/mycli](https://github.com/dbcli/mycli) | ★ 12k | [Read and write default myclirc as UTF-8](https://github.com/dbcli/mycli/pull/2389) |
+| [esphome/esphome](https://github.com/esphome/esphome) | ★ 12k | [[core] Reject a 0 K color temperature instead of crashing](https://github.com/esphome/esphome/pull/21756) |
 | [foliojs/pdfkit](https://github.com/foliojs/pdfkit) | ★ 11k | [Fix a CommonJS bundle of the Node build throwing on load on Windows](https://github.com/foliojs/pdfkit/pull/1828) |
 | [BYVoid/OpenCC](https://github.com/BYVoid/OpenCC) | ★ 10k | [s2twp：不再將「進程」一律轉為「程序」；tw2sp 保留「行程」（#1313）](https://github.com/BYVoid/OpenCC/pull/1515)<br>[s2twp：不再將「程序」一律轉為「程式」（#1313）](https://github.com/BYVoid/OpenCC/pull/1514)<br>[tw2sp：不再將「執行」一律轉為「運行」（#1313）](https://github.com/BYVoid/OpenCC/pull/1512)<br>[s2twp：不再將「社區」一律轉為「社群」（#1313）](https://github.com/BYVoid/OpenCC/pull/1511)<br>[s2twp：不再將「支持」一律轉為「支援」（#1313）](https://github.com/BYVoid/OpenCC/pull/1510)<br>[s2twp：不再將「高級」一律轉為「高階」（#1313）](https://github.com/BYVoid/OpenCC/pull/1509) |
 | [bombshell-dev/clack](https://github.com/bombshell-dev/clack) | ★ 8.1k | [fix(prompts): handle trailing backslash in path prompt directory mode](https://github.com/bombshell-dev/clack/pull/627) |
@@ -74,6 +76,7 @@ and desktop apps.
 | [VOICEVOX/voicevox](https://github.com/VOICEVOX/voicevox) | ★ 3.3k | [ci: actionlintを導入し、指摘されたワークフローの問題を修正する](https://github.com/VOICEVOX/voicevox/pull/3156) |
 | [kevin1024/vcrpy](https://github.com/kevin1024/vcrpy) | ★ 3k | [Match urlencoded parameter names in filter_post_data_parameters](https://github.com/kevin1024/vcrpy/pull/1066) |
 | [est31/cargo-udeps](https://github.com/est31/cargo-udeps) | ★ 2.1k | [Don't warn about duplicates when a dependency is listed per target](https://github.com/est31/cargo-udeps/pull/343) |
+| [piccolo-orm/piccolo](https://github.com/piccolo-orm/piccolo) | ★ 2k | [Return Decimal values from Array(Numeric()) columns in SQLite](https://github.com/piccolo-orm/piccolo/pull/1445) |
 | [un-ts/eslint-plugin-import-x](https://github.com/un-ts/eslint-plugin-import-x) | ★ 781 | [fix(no-cycle): detect cycles through side-effect imports](https://github.com/un-ts/eslint-plugin-import-x/pull/538) |
 | [run-llama/llama-agents](https://github.com/run-llama/llama-agents) | ★ 464 | [Don't report idle while sent events are undelivered](https://github.com/run-llama/llama-agents/pull/817) |
 | [Migushthe2nd/MsEdgeTTS](https://github.com/Migushthe2nd/MsEdgeTTS) | ★ 347 | [docs: clarify toFile() output files and where prosody options go](https://github.com/Migushthe2nd/MsEdgeTTS/pull/40) |
