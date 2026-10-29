@@ -25,10 +25,12 @@ and desktop apps.
 | Project | Stars | Merged pull requests |
 |---|---|---|
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | ★ 157k | [i18n: complete zh-TW translation and replace Mainland terms](https://github.com/open-webui/open-webui/pull/32482) |
+| [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | ★ 96k | [fix(bidi): return domain cookies for the domain itself in page.cookies()](https://github.com/puppeteer/puppeteer/pull/15689) |
 | [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) | ★ 82k | [JsonWriter writes NaN and infinite values as invalid JSON](https://github.com/spring-projects/spring-boot/pull/52477) |
 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | ★ 69k | [`@remotion/paths`: Fix `getBoundingBox()` for curves starting with a flat tangent](https://github.com/remotion-dev/remotion/pull/12687)<br>[`@remotion/cli`: Accept `--props` files saved with a UTF-8 BOM](https://github.com/remotion-dev/remotion/pull/12645) |
 | [laurent22/joplin](https://github.com/laurent22/joplin) | ★ 57k | [All: Translation: Update zh_TW.po](https://github.com/laurent22/joplin/pull/16853) |
 | [prettier/prettier](https://github.com/prettier/prettier) | ★ 52k | [Add tests for NO-BREAK SPACE next to CJK in Markdown](https://github.com/prettier/prettier/pull/20321) |
+| [google/guava](https://github.com/google/guava) | ★ 52k | [Fix `Graphs.hasCycle` missing cycles in undirected graphs](https://github.com/google/guava/pull/8796) |
 | [skylot/jadx](https://github.com/skylot/jadx) | ★ 51k | [fix(core): use Locale.ROOT for case conversion of names](https://github.com/skylot/jadx/pull/3037) |
 | [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) | ★ 41k | [fix(VTextarea): keep native undo history with auto-grow](https://github.com/vuetifyjs/vuetify/pull/23279) |
 | [preactjs/preact](https://github.com/preactjs/preact) | ★ 39k | [fix(types): add declarative shadow DOM attributes to `&lt;template>`](https://github.com/preactjs/preact/pull/5338) |
@@ -42,14 +44,15 @@ and desktop apps.
 | [pypa/pipenv](https://github.com/pypa/pipenv) | ★ 25k | [Read and write the Pipfile as UTF-8 everywhere](https://github.com/pypa/pipenv/pull/6756) |
 | [plotly/dash](https://github.com/plotly/dash) | ★ 24k | [Decode the pages router pathname before matching it](https://github.com/plotly/dash/pull/4074) |
 | [jsdom/jsdom](https://github.com/jsdom/jsdom) | ★ 22k | [Fix template elements in XHTML: prefixed parsing and innerHTML](https://github.com/jsdom/jsdom/pull/4408) |
-| [video-dev/hls.js](https://github.com/video-dev/hls.js) | ★ 17k | [Load the start fragment again when its request is aborted before anything is buffered](https://github.com/video-dev/hls.js/pull/8115) |
-| [hubotio/hubot](https://github.com/hubotio/hubot) | ★ 17k | [fix(create): install the default scripts on Windows](https://github.com/hubotio/hubot/pull/1840) |
 
 <details>
-<summary>31 more projects</summary>
+<summary>34 more projects</summary>
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
+| [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | ★ 20k | [openapi: look up service comments by declaration index](https://github.com/grpc-ecosystem/grpc-gateway/pull/7600) |
+| [video-dev/hls.js](https://github.com/video-dev/hls.js) | ★ 17k | [Load the start fragment again when its request is aborted before anything is buffered](https://github.com/video-dev/hls.js/pull/8115) |
+| [hubotio/hubot](https://github.com/hubotio/hubot) | ★ 17k | [fix(create): install the default scripts on Windows](https://github.com/hubotio/hubot/pull/1840) |
 | [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | ★ 16k | [fix(sarif): set the log version to 2.1.0](https://github.com/ast-grep/ast-grep/pull/3035) |
 | [tracel-ai/burn](https://github.com/tracel-ai/burn) | ★ 16k | [fix(tensor): return fewer chunks instead of panicking in `chunk`](https://github.com/tracel-ai/burn/pull/6263) |
 | [Y2Z/monolith](https://github.com/Y2Z/monolith) | ★ 16k | [fix: treat Windows drive-letter paths as local files](https://github.com/Y2Z/monolith/pull/541) |
@@ -78,7 +81,7 @@ and desktop apps.
 | [est31/cargo-udeps](https://github.com/est31/cargo-udeps) | ★ 2.1k | [Don't warn about duplicates when a dependency is listed per target](https://github.com/est31/cargo-udeps/pull/343) |
 | [piccolo-orm/piccolo](https://github.com/piccolo-orm/piccolo) | ★ 2k | [Return Decimal values from Array(Numeric()) columns in SQLite](https://github.com/piccolo-orm/piccolo/pull/1445) |
 | [un-ts/eslint-plugin-import-x](https://github.com/un-ts/eslint-plugin-import-x) | ★ 781 | [fix(no-cycle): detect cycles through side-effect imports](https://github.com/un-ts/eslint-plugin-import-x/pull/538) |
-| [run-llama/llama-agents](https://github.com/run-llama/llama-agents) | ★ 464 | [Don't report idle while sent events are undelivered](https://github.com/run-llama/llama-agents/pull/817) |
+| [run-llama/llama-agents](https://github.com/run-llama/llama-agents) | ★ 465 | [Don't report idle while sent events are undelivered](https://github.com/run-llama/llama-agents/pull/817) |
 | [Migushthe2nd/MsEdgeTTS](https://github.com/Migushthe2nd/MsEdgeTTS) | ★ 347 | [docs: clarify toFile() output files and where prosody options go](https://github.com/Migushthe2nd/MsEdgeTTS/pull/40) |
 | [textlint-ja/textlint-rule-ja-no-successive-word](https://github.com/textlint-ja/textlint-rule-ja-no-successive-word) | ★ 7 | [feat: 記号や空白の連続を許可するオプションを追加](https://github.com/textlint-ja/textlint-rule-ja-no-successive-word/pull/36) |
 

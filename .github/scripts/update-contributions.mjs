@@ -1,5 +1,6 @@
 // Rewrites the "Open source contributions" section of README.md
-// from my merged pull requests in repositories I don't own.
+// from my merged pull requests in repositories I don't own, plus closed ones
+// whose change landed as my own commit (e.g. imported by Copybara).
 import { readFile, writeFile } from 'node:fs/promises'
 
 const USER = 'b84330808'
@@ -12,18 +13,21 @@ const EXCLUDE = new Set(['morr/jquery.appear#60'])
 const TOP = 20
 
 const QUERY = `query ($q: String!, $after: String) {
-  search(query: $q, type: ISSUE, first: 100, after: $after) {
+  search(query: $q, type: ISSUE, first: 50, after: $after) {
     pageInfo { hasNextPage endCursor }
     nodes {
       ... on PullRequest {
-        number title url mergedAt
+        number title url mergedAt closedAt
         repository { nameWithOwner url stargazerCount isPrivate }
+        timelineItems(itemTypes: [CLOSED_EVENT], last: 1) {
+          nodes { ... on ClosedEvent { closer { ... on Commit { author { user { login } } } } } }
+        }
       }
     }
   }
 }`
 
-async function fetchMergedPullRequests() {
+async function searchPullRequests(q) {
   const pullRequests = []
   let after = null
   do {
@@ -35,7 +39,7 @@ async function fetchMergedPullRequests() {
       },
       body: JSON.stringify({
         query: QUERY,
-        variables: { q: `author:${USER} type:pr is:merged -user:${USER}`, after },
+        variables: { q, after },
       }),
     })
     if (!res.ok) throw new Error(`GitHub API ${res.status}: ${await res.text()}`)
@@ -46,7 +50,27 @@ async function fetchMergedPullRequests() {
     after = hasNextPage ? endCursor : null
   } while (after)
 
-  return pullRequests.filter(
+  return pullRequests
+}
+
+async function fetchMergedPullRequests() {
+  const merged = await searchPullRequests(
+    `author:${USER} type:pr is:merged -user:${USER}`,
+  )
+  // A pull request closed by one of my commits landed outside GitHub's merge
+  // button, so treat it as merged at the time it was closed.
+  const landed = (
+    await searchPullRequests(
+      `author:${USER} type:pr is:closed is:unmerged -user:${USER}`,
+    )
+  )
+    .filter(
+      (pr) =>
+        pr.timelineItems.nodes[0]?.closer?.author?.user?.login === USER,
+    )
+    .map((pr) => ({ ...pr, mergedAt: pr.closedAt }))
+
+  return [...merged, ...landed].filter(
     (pr) =>
       !pr.repository.isPrivate &&
       !EXCLUDE.has(`${pr.repository.nameWithOwner}#${pr.number}`),
