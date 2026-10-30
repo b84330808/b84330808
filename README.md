@@ -26,8 +26,8 @@ and desktop apps.
 |---|---|---|
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | ★ 157k | [i18n: complete zh-TW translation and replace Mainland terms](https://github.com/open-webui/open-webui/pull/32482) |
 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | ★ 96k | [fix(bidi): return domain cookies for the domain itself in page.cookies()](https://github.com/puppeteer/puppeteer/pull/15689) |
-| [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) | ★ 82k | [JsonWriter writes NaN and infinite values as invalid JSON](https://github.com/spring-projects/spring-boot/pull/52477) |
-| [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | ★ 69k | [`@remotion/paths`: Fix `getBoundingBox()` for curves starting with a flat tangent](https://github.com/remotion-dev/remotion/pull/12687)<br>[`@remotion/cli`: Accept `--props` files saved with a UTF-8 BOM](https://github.com/remotion-dev/remotion/pull/12645) |
+| [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) | ★ 82k | [ECS structured logging writes empty service and service.node objects](https://github.com/spring-projects/spring-boot/pull/52495)<br>[JsonWriter writes NaN and infinite values as invalid JSON](https://github.com/spring-projects/spring-boot/pull/52477) |
+| [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | ★ 69k | [`@remotion/paths`: Fix geometry of chained `T` commands after a non-quadratic command](https://github.com/remotion-dev/remotion/pull/12821)<br>[`@remotion/paths`: Fix `getBoundingBox()` for curves starting with a flat tangent](https://github.com/remotion-dev/remotion/pull/12687)<br>[`@remotion/cli`: Accept `--props` files saved with a UTF-8 BOM](https://github.com/remotion-dev/remotion/pull/12645) |
 | [laurent22/joplin](https://github.com/laurent22/joplin) | ★ 57k | [All: Translation: Update zh_TW.po](https://github.com/laurent22/joplin/pull/16853) |
 | [prettier/prettier](https://github.com/prettier/prettier) | ★ 52k | [Add tests for NO-BREAK SPACE next to CJK in Markdown](https://github.com/prettier/prettier/pull/20321) |
 | [google/guava](https://github.com/google/guava) | ★ 52k | [Fix `Graphs.hasCycle` missing cycles in undirected graphs](https://github.com/google/guava/pull/8796) |
@@ -46,7 +46,7 @@ and desktop apps.
 | [jsdom/jsdom](https://github.com/jsdom/jsdom) | ★ 22k | [Fix template elements in XHTML: prefixed parsing and innerHTML](https://github.com/jsdom/jsdom/pull/4408) |
 
 <details>
-<summary>34 more projects</summary>
+<summary>36 more projects</summary>
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -61,9 +61,10 @@ and desktop apps.
 | [plasma-umass/scalene](https://github.com/plasma-umass/scalene) | ★ 14k | [Save %%scalene cells as UTF-8](https://github.com/plasma-umass/scalene/pull/1106) |
 | [fuma-nama/fumadocs](https://github.com/fuma-nama/fumadocs) | ★ 14k | [fix(openapi, asyncapi): resolve index card links from the output directory](https://github.com/fuma-nama/fumadocs/pull/3752) |
 | [orhun/git-cliff](https://github.com/orhun/git-cliff) | ★ 12k | [fix(args): scope --workdir to its directory on Windows](https://github.com/orhun/git-cliff/pull/1657) |
+| [spencermountain/compromise](https://github.com/spencermountain/compromise) | ★ 12k | [fix numbers with hundreds inside a thousand or million group](https://github.com/spencermountain/compromise/pull/1254) |
 | [Milkdown/milkdown](https://github.com/Milkdown/milkdown) | ★ 12k | [fix(preset-commonmark): keep remarkLineBreak linear on long runs of spaces](https://github.com/Milkdown/milkdown/pull/2504) |
-| [dbcli/mycli](https://github.com/dbcli/mycli) | ★ 12k | [Read and write default myclirc as UTF-8](https://github.com/dbcli/mycli/pull/2389) |
 | [esphome/esphome](https://github.com/esphome/esphome) | ★ 12k | [[core] Reject a 0 K color temperature instead of crashing](https://github.com/esphome/esphome/pull/21756) |
+| [dbcli/mycli](https://github.com/dbcli/mycli) | ★ 12k | [Read and write default myclirc as UTF-8](https://github.com/dbcli/mycli/pull/2389) |
 | [foliojs/pdfkit](https://github.com/foliojs/pdfkit) | ★ 11k | [Fix a CommonJS bundle of the Node build throwing on load on Windows](https://github.com/foliojs/pdfkit/pull/1828) |
 | [BYVoid/OpenCC](https://github.com/BYVoid/OpenCC) | ★ 10k | [s2twp：不再將「進程」一律轉為「程序」；tw2sp 保留「行程」（#1313）](https://github.com/BYVoid/OpenCC/pull/1515)<br>[s2twp：不再將「程序」一律轉為「程式」（#1313）](https://github.com/BYVoid/OpenCC/pull/1514)<br>[tw2sp：不再將「執行」一律轉為「運行」（#1313）](https://github.com/BYVoid/OpenCC/pull/1512)<br>[s2twp：不再將「社區」一律轉為「社群」（#1313）](https://github.com/BYVoid/OpenCC/pull/1511)<br>[s2twp：不再將「支持」一律轉為「支援」（#1313）](https://github.com/BYVoid/OpenCC/pull/1510)<br>[s2twp：不再將「高級」一律轉為「高階」（#1313）](https://github.com/BYVoid/OpenCC/pull/1509) |
 | [bombshell-dev/clack](https://github.com/bombshell-dev/clack) | ★ 8.1k | [fix(prompts): handle trailing backslash in path prompt directory mode](https://github.com/bombshell-dev/clack/pull/627) |
@@ -75,13 +76,14 @@ and desktop apps.
 | [style-dictionary/style-dictionary](https://github.com/style-dictionary/style-dictionary) | ★ 4.9k | [fix: clean copy_assets output with fs.rm() so it works on Node.js 25+](https://github.com/style-dictionary/style-dictionary/pull/1796) |
 | [poem-web/poem](https://github.com/poem-web/poem) | ★ 4.5k | [fix(openapi): use the error type's bad_request_handler in Result responses](https://github.com/poem-web/poem/pull/1230) |
 | [adaltas/node-csv](https://github.com/adaltas/node-csv) | ★ 4.3k | [fix(csv-parse): only destroy on end when the stream has destroy (fix #409)](https://github.com/adaltas/node-csv/pull/538) |
+| [spencermountain/spacetime](https://github.com/spencermountain/spacetime) | ★ 4.1k | [fix(add): walk to the target year when adding years](https://github.com/spencermountain/spacetime/pull/479) |
 | [honkit/honkit](https://github.com/honkit/honkit) | ★ 3.5k | [fix: use structure.readme as index.html when README.md also exists](https://github.com/honkit/honkit/pull/535) |
 | [VOICEVOX/voicevox](https://github.com/VOICEVOX/voicevox) | ★ 3.3k | [ci: actionlintを導入し、指摘されたワークフローの問題を修正する](https://github.com/VOICEVOX/voicevox/pull/3156) |
 | [kevin1024/vcrpy](https://github.com/kevin1024/vcrpy) | ★ 3k | [Match urlencoded parameter names in filter_post_data_parameters](https://github.com/kevin1024/vcrpy/pull/1066) |
 | [est31/cargo-udeps](https://github.com/est31/cargo-udeps) | ★ 2.1k | [Don't warn about duplicates when a dependency is listed per target](https://github.com/est31/cargo-udeps/pull/343) |
 | [piccolo-orm/piccolo](https://github.com/piccolo-orm/piccolo) | ★ 2k | [Return Decimal values from Array(Numeric()) columns in SQLite](https://github.com/piccolo-orm/piccolo/pull/1445) |
 | [un-ts/eslint-plugin-import-x](https://github.com/un-ts/eslint-plugin-import-x) | ★ 781 | [fix(no-cycle): detect cycles through side-effect imports](https://github.com/un-ts/eslint-plugin-import-x/pull/538) |
-| [run-llama/llama-agents](https://github.com/run-llama/llama-agents) | ★ 465 | [Don't report idle while sent events are undelivered](https://github.com/run-llama/llama-agents/pull/817) |
+| [run-llama/llama-agents](https://github.com/run-llama/llama-agents) | ★ 464 | [Don't report idle while sent events are undelivered](https://github.com/run-llama/llama-agents/pull/817) |
 | [Migushthe2nd/MsEdgeTTS](https://github.com/Migushthe2nd/MsEdgeTTS) | ★ 347 | [docs: clarify toFile() output files and where prosody options go](https://github.com/Migushthe2nd/MsEdgeTTS/pull/40) |
 | [textlint-ja/textlint-rule-ja-no-successive-word](https://github.com/textlint-ja/textlint-rule-ja-no-successive-word) | ★ 7 | [feat: 記号や空白の連続を許可するオプションを追加](https://github.com/textlint-ja/textlint-rule-ja-no-successive-word/pull/36) |
 
