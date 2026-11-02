@@ -5,10 +5,14 @@ In my own time I build developer tools: MCP servers, LLM-agent workflows
 and desktop apps.
 
 - 🎬 **Weilun Studio**: a one-person, AI-native media studio. Claude Code runs
-  the production pipeline behind two channels
-  (→ [weilunli.me/studio](https://weilunli.me/studio/); figures as of November 2026):
-  - [奇聞蒐藏室](https://www.youtube.com/@qiwenroom) (YouTube): 249 videos, 18.4M+ views, 13.5K subscribers
-  - [豆柴こつぶ](https://www.instagram.com/mameshibakotsubu/) (Instagram): 290 posts (218 Reels), 42M+ views, 25.2K followers
+  the production pipeline behind two channels. → [weilunli.me/studio](https://weilunli.me/studio/)
+
+  | Channel | Platform | Views | Followers |
+  |---|---|---|---|
+  | [奇聞蒐藏室](https://www.youtube.com/@qiwenroom) | YouTube | 18.4M+ | 13.5K subscribers |
+  | [豆柴こつぶ](https://www.instagram.com/mameshibakotsubu/) | Instagram | 42M+ | 25.2K followers |
+
+  <sub>Figures as of November 2026.</sub>
 - 🌏 Chinese (native) · Japanese (JLPT N1) · English
 
 ## Projects
