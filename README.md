@@ -35,16 +35,16 @@ and desktop apps.
 ## Open source contributions
 
 <!-- contributions:start -->
-**85 merged pull requests to 69 projects**, sorted by stars.
+**88 merged pull requests to 70 projects**, sorted by stars.
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | ★ 158k | [i18n: complete zh-TW translation and replace Mainland terms](https://github.com/open-webui/open-webui/pull/32482) |
 | [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | ★ 112k | [fix(cli): percent-decode request paths in the builtin dev server (fix #12763)](https://github.com/tauri-apps/tauri/pull/16436) |
-| [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | ★ 98k | [Don't treat `!important` inside a declaration value as the important flag](https://github.com/tailwindlabs/tailwindcss/pull/20627) |
+| [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | ★ 98k | [Parse a custom property at the end of the input without a trailing `;`](https://github.com/tailwindlabs/tailwindcss/pull/20653)<br>[Don't treat `!important` inside a declaration value as the important flag](https://github.com/tailwindlabs/tailwindcss/pull/20627) |
 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | ★ 97k | [Preserve template namespaces before operator-> and operator->*](https://github.com/NationalSecurityAgency/ghidra/pull/10054) |
 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | ★ 96k | [fix(bidi): return domain cookies for the domain itself in page.cookies()](https://github.com/puppeteer/puppeteer/pull/15689) |
-| [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) | ★ 82k | [Plain text thread dump reports threads in Object.wait() as parking on Java 19+](https://github.com/spring-projects/spring-boot/pull/52509)<br>[ECS structured logging writes empty service and service.node objects](https://github.com/spring-projects/spring-boot/pull/52495)<br>[JsonWriter writes NaN and infinite values as invalid JSON](https://github.com/spring-projects/spring-boot/pull/52477) |
+| [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) | ★ 82k | [BasicJsonParser does not decode \b, \f, \n, \r, \t and \uXXXX escape sequences](https://github.com/spring-projects/spring-boot/pull/52528)<br>[Plain text thread dump reports threads in Object.wait() as parking on Java 19+](https://github.com/spring-projects/spring-boot/pull/52509)<br>[ECS structured logging writes empty service and service.node objects](https://github.com/spring-projects/spring-boot/pull/52495)<br>[JsonWriter writes NaN and infinite values as invalid JSON](https://github.com/spring-projects/spring-boot/pull/52477) |
 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | ★ 70k | [`@remotion/paths`: Treat arcs with a zero radius as straight lines](https://github.com/remotion-dev/remotion/pull/12859)<br>[`@remotion/paths`: Fix geometry of chained `T` commands after a non-quadratic command](https://github.com/remotion-dev/remotion/pull/12821)<br>[`@remotion/paths`: Fix `getBoundingBox()` for curves starting with a flat tangent](https://github.com/remotion-dev/remotion/pull/12687)<br>[`@remotion/cli`: Accept `--props` files saved with a UTF-8 BOM](https://github.com/remotion-dev/remotion/pull/12645) |
 | [rclone/rclone](https://github.com/rclone/rclone) | ★ 61k | [operations: fix cat --offset before the start of a file printing its end](https://github.com/rclone/rclone/pull/10216) |
 | [laurent22/joplin](https://github.com/laurent22/joplin) | ★ 57k | [All: Translation: Update zh_TW.po](https://github.com/laurent22/joplin/pull/16853) |
@@ -61,7 +61,7 @@ and desktop apps.
 | [chinabugotech/hutool](https://github.com/chinabugotech/hutool) | ★ 30k | [修复默认Locale为土耳其语时忽略大小写的Map及Month/Week/ColorUtil名称解析失效的问题](https://github.com/chinabugotech/hutool/pull/4348) |
 
 <details>
-<summary>49 more projects</summary>
+<summary>50 more projects</summary>
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -82,6 +82,7 @@ and desktop apps.
 | [Y2Z/monolith](https://github.com/Y2Z/monolith) | ★ 16k | [fix: treat Windows drive-letter paths as local files](https://github.com/Y2Z/monolith/pull/541) |
 | [jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab) | ★ 15k | [Do not add default metadata to cells when opening the Property Inspector](https://github.com/jupyterlab/jupyterlab/pull/20160) |
 | [apexcharts/apexcharts.js](https://github.com/apexcharts/apexcharts.js) | ★ 15k | [fix(dumbbell): don't draw end dots for a null row](https://github.com/apexcharts/apexcharts.js/pull/5357) |
+| [josdejong/mathjs](https://github.com/josdejong/mathjs) | ★ 15k | [fix: reducing a one dimensional matrix along a dimension threw an error](https://github.com/josdejong/mathjs/pull/3734) |
 | [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) | ★ 15k | [fix: read file:/// custom toolset URLs as file URLs](https://github.com/electron-userland/electron-builder/pull/10504) |
 | [jackc/pgx](https://github.com/jackc/pgx) | ★ 14k | [pgconn: read the default service file from %APPDATA%\postgresql on Windows](https://github.com/jackc/pgx/pull/2697) |
 | [plasma-umass/scalene](https://github.com/plasma-umass/scalene) | ★ 14k | [Save %%scalene cells as UTF-8](https://github.com/plasma-umass/scalene/pull/1106) |
