@@ -110,6 +110,8 @@ function render(pullRequests) {
 
   return [
     START,
+    `**${pullRequests.length} merged pull requests to ${repos.size} projects**, sorted by stars.`,
+    '',
     ...header,
     ...rows.slice(0, TOP),
     '',

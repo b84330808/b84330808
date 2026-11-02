@@ -14,6 +14,13 @@ and desktop apps.
 | Project | What it does |
 |---|---|
 | [WhisperPress](https://github.com/b84330808/whisperpress) | Offline push-to-talk voice typing for Windows, powered by whisper.cpp |
+| [before-you-pr](https://github.com/b84330808/before-you-pr) | Check a repo's AI policy, CLA/DCO, claims and existing PRs before you write code. CLI and MCP server ([npm](https://www.npmjs.com/package/before-you-pr)) |
+| [ai-policy-map](https://github.com/b84330808/ai-policy-map) | How popular GitHub repos treat AI-assisted contributions, with every verdict linked to its source ([site](https://b84330808.github.io/ai-policy-map/)) |
+| [agent-trap-scan](https://github.com/b84330808/agent-trap-scan) | Flag text in a repo aimed at AI coding agents (download-and-run commands, hook bypasses, honeypots) before your agent reads it |
+| [redgreen-check](https://github.com/b84330808/redgreen-check) | Prove a change's tests catch the bug: green with the fix, red without it. CLI and GitHub Action |
+| [works-elsewhere](https://github.com/b84330808/works-elsewhere) | Re-run your tests under a legacy locale, Turkish, DST gaps, Unicode paths and CRLF |
+| [i18n-bugbench](https://github.com/b84330808/i18n-bugbench) | Real i18n and portability bug fixes (Windows paths, code pages, CRLF, CJK) as tasks for evaluating coding agents |
+| [mcp-server-jma](https://github.com/b84330808/mcp-server-jma) | MCP server for Japan Meteorological Agency data: forecasts, warnings, earthquakes, tsunami, volcanoes |
 | [mcp-server-for-bambu](https://github.com/b84330808/mcp-server-for-bambu) | MCP server for Bambu Lab 3D printers over LAN/MQTT ([npm](https://www.npmjs.com/package/mcp-server-for-bambu)) |
 | [mcp-server-japan-atlas](https://github.com/b84330808/mcp-server-japan-atlas) | MCP server for Japanese address normalization & GSI elevation lookup ([npm](https://www.npmjs.com/package/mcp-server-japan-atlas)) |
 | [iizuka-ikeru-navi](https://github.com/b84330808/iizuka-ikeru-navi) | Transit navigator for Iizuka City built on open data (e-ZUKA Smart App Contest 2026) |
@@ -22,19 +29,23 @@ and desktop apps.
 ## Open source contributions
 
 <!-- contributions:start -->
+**85 merged pull requests to 69 projects**, sorted by stars.
+
 | Project | Stars | Merged pull requests |
 |---|---|---|
-| [open-webui/open-webui](https://github.com/open-webui/open-webui) | ★ 157k | [i18n: complete zh-TW translation and replace Mainland terms](https://github.com/open-webui/open-webui/pull/32482) |
+| [open-webui/open-webui](https://github.com/open-webui/open-webui) | ★ 158k | [i18n: complete zh-TW translation and replace Mainland terms](https://github.com/open-webui/open-webui/pull/32482) |
 | [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | ★ 112k | [fix(cli): percent-decode request paths in the builtin dev server (fix #12763)](https://github.com/tauri-apps/tauri/pull/16436) |
+| [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | ★ 98k | [Don't treat `!important` inside a declaration value as the important flag](https://github.com/tailwindlabs/tailwindcss/pull/20627) |
 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | ★ 97k | [Preserve template namespaces before operator-> and operator->*](https://github.com/NationalSecurityAgency/ghidra/pull/10054) |
 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | ★ 96k | [fix(bidi): return domain cookies for the domain itself in page.cookies()](https://github.com/puppeteer/puppeteer/pull/15689) |
 | [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) | ★ 82k | [Plain text thread dump reports threads in Object.wait() as parking on Java 19+](https://github.com/spring-projects/spring-boot/pull/52509)<br>[ECS structured logging writes empty service and service.node objects](https://github.com/spring-projects/spring-boot/pull/52495)<br>[JsonWriter writes NaN and infinite values as invalid JSON](https://github.com/spring-projects/spring-boot/pull/52477) |
-| [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | ★ 70k | [`@remotion/paths`: Fix geometry of chained `T` commands after a non-quadratic command](https://github.com/remotion-dev/remotion/pull/12821)<br>[`@remotion/paths`: Fix `getBoundingBox()` for curves starting with a flat tangent](https://github.com/remotion-dev/remotion/pull/12687)<br>[`@remotion/cli`: Accept `--props` files saved with a UTF-8 BOM](https://github.com/remotion-dev/remotion/pull/12645) |
+| [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | ★ 70k | [`@remotion/paths`: Treat arcs with a zero radius as straight lines](https://github.com/remotion-dev/remotion/pull/12859)<br>[`@remotion/paths`: Fix geometry of chained `T` commands after a non-quadratic command](https://github.com/remotion-dev/remotion/pull/12821)<br>[`@remotion/paths`: Fix `getBoundingBox()` for curves starting with a flat tangent](https://github.com/remotion-dev/remotion/pull/12687)<br>[`@remotion/cli`: Accept `--props` files saved with a UTF-8 BOM](https://github.com/remotion-dev/remotion/pull/12645) |
 | [rclone/rclone](https://github.com/rclone/rclone) | ★ 61k | [operations: fix cat --offset before the start of a file printing its end](https://github.com/rclone/rclone/pull/10216) |
 | [laurent22/joplin](https://github.com/laurent22/joplin) | ★ 57k | [All: Translation: Update zh_TW.po](https://github.com/laurent22/joplin/pull/16853) |
 | [prettier/prettier](https://github.com/prettier/prettier) | ★ 52k | [Add tests for NO-BREAK SPACE next to CJK in Markdown](https://github.com/prettier/prettier/pull/20321) |
 | [google/guava](https://github.com/google/guava) | ★ 52k | [Fix `Graphs.hasCycle` missing cycles in undirected graphs](https://github.com/google/guava/pull/8796) |
 | [skylot/jadx](https://github.com/skylot/jadx) | ★ 51k | [fix(core): use Locale.ROOT for case conversion of names](https://github.com/skylot/jadx/pull/3037) |
+| [psf/black](https://github.com/psf/black) | ★ 42k | [Fix `# fmt: skip` on the last line of a multi-line conditional expression in brackets](https://github.com/psf/black/pull/5647) |
 | [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) | ★ 41k | [fix(VTextarea): keep native undo history with auto-grow](https://github.com/vuetifyjs/vuetify/pull/23279) |
 | [preactjs/preact](https://github.com/preactjs/preact) | ★ 39k | [fix(types): add declarative shadow DOM attributes to `&lt;template>`](https://github.com/preactjs/preact/pull/5338) |
 | [NervJS/taro](https://github.com/NervJS/taro) | ★ 38k | [fix(mini-ci): 修复 Windows 下 devToolsInstallPath 配置校验及开发者工具路径未加引号的问题](https://github.com/NervJS/taro/pull/19579) |
@@ -42,19 +53,21 @@ and desktop apps.
 | [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) | ★ 33k | [Fix keys of an interposed Seq iterated in reverse](https://github.com/immutable-js/immutable-js/pull/2310)<br>[Fix stack overflow when slicing a zipped Seq of unknown size from the end](https://github.com/immutable-js/immutable-js/pull/2311) |
 | [mantinedev/mantine](https://github.com/mantinedev/mantine) | ★ 32k | [[@mantine/hooks] use-mask: Fix generatePattern output being rejected by browsers for masks with # token](https://github.com/mantinedev/mantine/pull/9326) |
 | [chinabugotech/hutool](https://github.com/chinabugotech/hutool) | ★ 30k | [修复默认Locale为土耳其语时忽略大小写的Map及Month/Week/ColorUtil名称解析失效的问题](https://github.com/chinabugotech/hutool/pull/4348) |
-| [locustio/locust](https://github.com/locustio/locust) | ★ 28k | [Save a locustfile downloaded from a URL byte for byte](https://github.com/locustio/locust/pull/3577) |
-| [recharts/recharts](https://github.com/recharts/recharts) | ★ 28k | [fix(ErrorBar): clip error bars with their graphical item](https://github.com/recharts/recharts/pull/8054)<br>[fix(LabelList): skip labels of elements outside the clipped domain](https://github.com/recharts/recharts/pull/8051) |
 
 <details>
-<summary>45 more projects</summary>
+<summary>49 more projects</summary>
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
+| [locustio/locust](https://github.com/locustio/locust) | ★ 28k | [Save a locustfile downloaded from a URL byte for byte](https://github.com/locustio/locust/pull/3577) |
+| [recharts/recharts](https://github.com/recharts/recharts) | ★ 28k | [fix(ErrorBar): clip error bars with their graphical item](https://github.com/recharts/recharts/pull/8054)<br>[fix(LabelList): skip labels of elements outside the clipped domain](https://github.com/recharts/recharts/pull/8051) |
+| [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator) | ★ 27k | [[core] Keep integer minimum/maximum next to $ref/allOf as integers](https://github.com/OpenAPITools/openapi-generator/pull/25441) |
 | [rollup/rollup](https://github.com/rollup/rollup) | ★ 26k | [Merge synthetic named exports into static namespaces when preserving modules](https://github.com/rollup/rollup/pull/6589) |
 | [homebridge/homebridge](https://github.com/homebridge/homebridge) | ★ 26k | [fix: accept a config.json that starts with a UTF-8 BOM](https://github.com/homebridge/homebridge/pull/4039) |
 | [pypa/pipenv](https://github.com/pypa/pipenv) | ★ 25k | [Read and write the Pipfile as UTF-8 everywhere](https://github.com/pypa/pipenv/pull/6756) |
 | [plotly/dash](https://github.com/plotly/dash) | ★ 24k | [Decode the pages router pathname before matching it](https://github.com/plotly/dash/pull/4074) |
 | [jsdom/jsdom](https://github.com/jsdom/jsdom) | ★ 22k | [Fix template elements in XHTML: prefixed parsing and innerHTML](https://github.com/jsdom/jsdom/pull/4408) |
+| [sveltejs/kit](https://github.com/sveltejs/kit) | ★ 21k | [fix(enhanced-img): compute the missing dimension at runtime for imported images](https://github.com/sveltejs/kit/pull/17499) |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | ★ 20k | [openapi: look up service comments by declaration index](https://github.com/grpc-ecosystem/grpc-gateway/pull/7600) |
 | [video-dev/hls.js](https://github.com/video-dev/hls.js) | ★ 17k | [Load the start fragment again when its request is aborted before anything is buffered](https://github.com/video-dev/hls.js/pull/8115) |
 | [hubotio/hubot](https://github.com/hubotio/hubot) | ★ 17k | [fix(create): install the default scripts on Windows](https://github.com/hubotio/hubot/pull/1840) |
