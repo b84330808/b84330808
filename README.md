@@ -35,7 +35,7 @@ and desktop apps.
 ## Open source contributions
 
 <!-- contributions:start -->
-**116 merged pull requests to 85 projects**, sorted by stars.
+**122 merged pull requests to 89 projects**, sorted by stars.
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -44,12 +44,14 @@ and desktop apps.
 | [github/spec-kit](https://github.com/github/spec-kit) | ★ 146k | [fix(workflows): decode code-page shell output in Python's UTF-8 mode](https://github.com/github/spec-kit/pull/5209) |
 | [2dust/v2rayN](https://github.com/2dust/v2rayN) | ★ 120k | [fix(fmt): default the AnyTLS and Naive port to 443 when the link omits it](https://github.com/2dust/v2rayN/pull/10504)<br>[fix(fmt): import legacy base64 SOCKS links again](https://github.com/2dust/v2rayN/pull/10505) |
 | [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | ★ 112k | [fix(utils): match file extensions case-insensitively in MimeType](https://github.com/tauri-apps/tauri/pull/16447)<br>[fix(utils): don't panic parsing a hex Color with non-ASCII characters](https://github.com/tauri-apps/tauri/pull/16444)<br>[fix(cli): percent-decode request paths in the builtin dev server (fix #12763)](https://github.com/tauri-apps/tauri/pull/16436) |
+| [neovim/neovim](https://github.com/neovim/neovim) | ★ 103k | [fix(editorconfig): "[!seq]" glob matches seq instead of excluding it](https://github.com/neovim/neovim/pull/42648) |
 | [mui/material-ui](https://github.com/mui/material-ui) | ★ 99k | [[system] Fix named container queries](https://github.com/mui/material-ui/pull/49649) |
 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | ★ 98k | [Parse a custom property at the end of the input without a trailing `;`](https://github.com/tailwindlabs/tailwindcss/pull/20653)<br>[Don't treat `!important` inside a declaration value as the important flag](https://github.com/tailwindlabs/tailwindcss/pull/20627) |
 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | ★ 97k | [Preserve template namespaces before operator-> and operator->*](https://github.com/NationalSecurityAgency/ghidra/pull/10054) |
 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | ★ 96k | [fix(bidi): send the default accuracy in page.setGeolocation()](https://github.com/puppeteer/puppeteer/pull/15704)<br>[fix(cdp): include null and undefined in ConsoleMessage.text()](https://github.com/puppeteer/puppeteer/pull/15693)<br>[fix(bidi): make page.setCacheEnabled() enable the cache by default](https://github.com/puppeteer/puppeteer/pull/15698)<br>[fix(bidi): return domain cookies for the domain itself in page.cookies()](https://github.com/puppeteer/puppeteer/pull/15689) |
+| [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | ★ 96k | [[Fix] `nvm_die_on_prefix`: check a nonexistent prefix on Windows](https://github.com/nvm-sh/nvm/pull/3972) |
 | [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) | ★ 82k | [JsonWriter writes invalid JSON when usingPairs is used with a named member](https://github.com/spring-projects/spring-boot/pull/52522)<br>[BasicJsonParser does not decode \b, \f, \n, \r, \t and \uXXXX escape sequences](https://github.com/spring-projects/spring-boot/pull/52528)<br>[Plain text thread dump reports threads in Object.wait() as parking on Java 19+](https://github.com/spring-projects/spring-boot/pull/52509)<br>[ECS structured logging writes empty service and service.node objects](https://github.com/spring-projects/spring-boot/pull/52495)<br>[JsonWriter writes NaN and infinite values as invalid JSON](https://github.com/spring-projects/spring-boot/pull/52477) |
-| [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | ★ 70k | [`@remotion/paths`: Treat arcs with a zero radius as straight lines](https://github.com/remotion-dev/remotion/pull/12859)<br>[`@remotion/paths`: Fix geometry of chained `T` commands after a non-quadratic command](https://github.com/remotion-dev/remotion/pull/12821)<br>[`@remotion/paths`: Fix `getBoundingBox()` for curves starting with a flat tangent](https://github.com/remotion-dev/remotion/pull/12687)<br>[`@remotion/cli`: Accept `--props` files saved with a UTF-8 BOM](https://github.com/remotion-dev/remotion/pull/12645) |
+| [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | ★ 70k | [`@remotion/paths`: Fix `getTangentAtLength()` direction on arcs](https://github.com/remotion-dev/remotion/pull/12868)<br>[`@remotion/paths`: Treat arcs with a zero radius as straight lines](https://github.com/remotion-dev/remotion/pull/12859)<br>[`@remotion/paths`: Fix geometry of chained `T` commands after a non-quadratic command](https://github.com/remotion-dev/remotion/pull/12821)<br>[`@remotion/paths`: Fix `getBoundingBox()` for curves starting with a flat tangent](https://github.com/remotion-dev/remotion/pull/12687)<br>[`@remotion/cli`: Accept `--props` files saved with a UTF-8 BOM](https://github.com/remotion-dev/remotion/pull/12645) |
 | [rclone/rclone](https://github.com/rclone/rclone) | ★ 61k | [operations: fix cat --offset before the start of a file printing its end](https://github.com/rclone/rclone/pull/10216) |
 | [rails/rails](https://github.com/rails/rails) | ★ 59k | [Fix `one?` and `many?` on grouped relations](https://github.com/rails/rails/pull/59559) |
 | [laurent22/joplin](https://github.com/laurent22/joplin) | ★ 57k | [All: Translation: Update zh_TW.po](https://github.com/laurent22/joplin/pull/16853) |
@@ -57,18 +59,19 @@ and desktop apps.
 | [google/guava](https://github.com/google/guava) | ★ 52k | [Fix `Graphs.hasCycle` missing cycles in undirected graphs](https://github.com/google/guava/pull/8796) |
 | [skylot/jadx](https://github.com/skylot/jadx) | ★ 52k | [fix(core): keep NaN semantics of negated float and double comparisons](https://github.com/skylot/jadx/pull/3048)<br>[fix(core): use Locale.ROOT for case conversion of names](https://github.com/skylot/jadx/pull/3037) |
 | [psf/black](https://github.com/psf/black) | ★ 42k | [Fix `# fmt: skip` on the last line of a multi-line conditional expression in brackets](https://github.com/psf/black/pull/5647) |
-| [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) | ★ 41k | [fix(VTextarea): keep native undo history with auto-grow](https://github.com/vuetifyjs/vuetify/pull/23279) |
-| [gofiber/fiber](https://github.com/gofiber/fiber) | ★ 40k | [🐛 bug: reject out-of-range int and uint in generic parsers on 32-bit](https://github.com/gofiber/fiber/pull/4832) |
 
 <details>
-<summary>65 more projects</summary>
+<summary>69 more projects</summary>
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
+| [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) | ★ 41k | [fix(VTextarea): keep native undo history with auto-grow](https://github.com/vuetifyjs/vuetify/pull/23279) |
+| [gofiber/fiber](https://github.com/gofiber/fiber) | ★ 40k | [🐛 bug: reject out-of-range int and uint in generic parsers on 32-bit](https://github.com/gofiber/fiber/pull/4832) |
 | [preactjs/preact](https://github.com/preactjs/preact) | ★ 39k | [fix(types): add declarative shadow DOM attributes to `&lt;template>`](https://github.com/preactjs/preact/pull/5338) |
 | [NervJS/taro](https://github.com/NervJS/taro) | ★ 38k | [fix(mini-ci): 修复 Windows 下 devToolsInstallPath 配置校验及开发者工具路径未加引号的问题](https://github.com/NervJS/taro/pull/19579) |
 | [markedjs/marked](https://github.com/markedjs/marked) | ★ 37k | [fix: keep a block quote open after a lazy line in a nested block quote](https://github.com/markedjs/marked/pull/4175) |
 | [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) | ★ 35k | [Read the element locking scripts as UTF-8](https://github.com/dgtlmoon/changedetection.io/pull/4614) |
+| [derailed/k9s](https://github.com/derailed/k9s) | ★ 35k | [fix(cmd): keep the -f flag when a command line is rebuilt](https://github.com/derailed/k9s/pull/4356) |
 | [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) | ★ 33k | [Fix keys of a filtered indexed Seq iterated in reverse](https://github.com/immutable-js/immutable-js/pull/2309)<br>[Fix takeLast(0) on a Seq of unknown size](https://github.com/immutable-js/immutable-js/pull/2313)<br>[Fix keys of an interposed Seq iterated in reverse](https://github.com/immutable-js/immutable-js/pull/2310)<br>[Fix stack overflow when slicing a zipped Seq of unknown size from the end](https://github.com/immutable-js/immutable-js/pull/2311) |
 | [mantinedev/mantine](https://github.com/mantinedev/mantine) | ★ 32k | [[@mantine/hooks] use-mask: Fix generatePattern output being rejected by browsers for masks with # token](https://github.com/mantinedev/mantine/pull/9326) |
 | [chinabugotech/hutool](https://github.com/chinabugotech/hutool) | ★ 30k | [修复默认Locale为土耳其语时忽略大小写的Map及Month/Week/ColorUtil名称解析失效的问题](https://github.com/chinabugotech/hutool/pull/4348) |
@@ -79,6 +82,7 @@ and desktop apps.
 | [rollup/rollup](https://github.com/rollup/rollup) | ★ 26k | [Merge synthetic named exports into static namespaces when preserving modules](https://github.com/rollup/rollup/pull/6589) |
 | [homebridge/homebridge](https://github.com/homebridge/homebridge) | ★ 26k | [fix: accept a config.json that starts with a UTF-8 BOM](https://github.com/homebridge/homebridge/pull/4039) |
 | [pypa/pipenv](https://github.com/pypa/pipenv) | ★ 25k | [Read and write the Pipfile as UTF-8 everywhere](https://github.com/pypa/pipenv/pull/6756) |
+| [go-delve/delve](https://github.com/go-delve/delve) | ★ 25k | [proc: wrap unary - and ^ results to the operand's integer type](https://github.com/go-delve/delve/pull/4459) |
 | [plotly/dash](https://github.com/plotly/dash) | ★ 24k | [Decode the pages router pathname before matching it](https://github.com/plotly/dash/pull/4074) |
 | [react-grid-layout/react-grid-layout](https://github.com/react-grid-layout/react-grid-layout) | ★ 22k | [fix: stop edge auto-scroll when the dropping placeholder unmounts (#2312)](https://github.com/react-grid-layout/react-grid-layout/pull/2314) |
 | [redis/go-redis](https://github.com/redis/go-redis) | ★ 22k | [fix(cmd): reject out-of-range Int() on 32-bit](https://github.com/redis/go-redis/pull/4256) |
@@ -101,7 +105,7 @@ and desktop apps.
 | [fuma-nama/fumadocs](https://github.com/fuma-nama/fumadocs) | ★ 14k | [fix(openapi, asyncapi): resolve index card links from the output directory](https://github.com/fuma-nama/fumadocs/pull/3752) |
 | [plantuml/plantuml](https://github.com/plantuml/plantuml) | ★ 13k | [🐛 Use locale-independent case conversion for stdlib files, SVG attributes and keywords](https://github.com/plantuml/plantuml/pull/2980) |
 | [orhun/git-cliff](https://github.com/orhun/git-cliff) | ★ 12k | [fix(args): scope --workdir to its directory on Windows](https://github.com/orhun/git-cliff/pull/1657) |
-| [spencermountain/compromise](https://github.com/spencermountain/compromise) | ★ 12k | [split a list of text ordinals](https://github.com/spencermountain/compromise/pull/1259)<br>[don't read 'the twenty fifth of december' as a fraction](https://github.com/spencermountain/compromise/pull/1257)<br>[keep the thousands before a dropped-hundred like 'two fifty'](https://github.com/spencermountain/compromise/pull/1256)<br>[write 'hundred sextillion' at 1e23, not 1e20](https://github.com/spencermountain/compromise/pull/1255)<br>[fix numbers with hundreds inside a thousand or million group](https://github.com/spencermountain/compromise/pull/1254) |
+| [spencermountain/compromise](https://github.com/spencermountain/compromise) | ★ 12k | [read 'twenty second' as 22nd, not twenty seconds](https://github.com/spencermountain/compromise/pull/1261)<br>[split a list of text ordinals](https://github.com/spencermountain/compromise/pull/1259)<br>[don't read 'the twenty fifth of december' as a fraction](https://github.com/spencermountain/compromise/pull/1257)<br>[keep the thousands before a dropped-hundred like 'two fifty'](https://github.com/spencermountain/compromise/pull/1256)<br>[write 'hundred sextillion' at 1e23, not 1e20](https://github.com/spencermountain/compromise/pull/1255)<br>[fix numbers with hundreds inside a thousand or million group](https://github.com/spencermountain/compromise/pull/1254) |
 | [GitoxideLabs/gitoxide](https://github.com/GitoxideLabs/gitoxide) | ★ 12k | [Remove the last `unsafe` block from `gix-revision` and forbid `unsafe` there](https://github.com/GitoxideLabs/gitoxide/pull/3150) |
 | [Milkdown/milkdown](https://github.com/Milkdown/milkdown) | ★ 12k | [fix(preset-commonmark): keep remarkLineBreak linear on long runs of spaces](https://github.com/Milkdown/milkdown/pull/2504) |
 | [esphome/esphome](https://github.com/esphome/esphome) | ★ 12k | [[core] Reject a 0 K color temperature instead of crashing](https://github.com/esphome/esphome/pull/21756) |
