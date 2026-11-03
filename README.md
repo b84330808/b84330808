@@ -35,18 +35,19 @@ and desktop apps.
 ## Open source contributions
 
 <!-- contributions:start -->
-**113 merged pull requests to 84 projects**, sorted by stars.
+**116 merged pull requests to 85 projects**, sorted by stars.
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
+| [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | ★ 201k | [Fix LinearOperatorPermutation.to_dense/diag_part for int64 perm](https://github.com/tensorflow/tensorflow/pull/129844) |
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | ★ 158k | [i18n: complete zh-TW translation and replace Mainland terms](https://github.com/open-webui/open-webui/pull/32482) |
 | [github/spec-kit](https://github.com/github/spec-kit) | ★ 146k | [fix(workflows): decode code-page shell output in Python's UTF-8 mode](https://github.com/github/spec-kit/pull/5209) |
-| [2dust/v2rayN](https://github.com/2dust/v2rayN) | ★ 120k | [fix(fmt): import legacy base64 SOCKS links again](https://github.com/2dust/v2rayN/pull/10505) |
+| [2dust/v2rayN](https://github.com/2dust/v2rayN) | ★ 120k | [fix(fmt): default the AnyTLS and Naive port to 443 when the link omits it](https://github.com/2dust/v2rayN/pull/10504)<br>[fix(fmt): import legacy base64 SOCKS links again](https://github.com/2dust/v2rayN/pull/10505) |
 | [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | ★ 112k | [fix(utils): match file extensions case-insensitively in MimeType](https://github.com/tauri-apps/tauri/pull/16447)<br>[fix(utils): don't panic parsing a hex Color with non-ASCII characters](https://github.com/tauri-apps/tauri/pull/16444)<br>[fix(cli): percent-decode request paths in the builtin dev server (fix #12763)](https://github.com/tauri-apps/tauri/pull/16436) |
 | [mui/material-ui](https://github.com/mui/material-ui) | ★ 99k | [[system] Fix named container queries](https://github.com/mui/material-ui/pull/49649) |
 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | ★ 98k | [Parse a custom property at the end of the input without a trailing `;`](https://github.com/tailwindlabs/tailwindcss/pull/20653)<br>[Don't treat `!important` inside a declaration value as the important flag](https://github.com/tailwindlabs/tailwindcss/pull/20627) |
 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | ★ 97k | [Preserve template namespaces before operator-> and operator->*](https://github.com/NationalSecurityAgency/ghidra/pull/10054) |
-| [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | ★ 96k | [fix(cdp): include null and undefined in ConsoleMessage.text()](https://github.com/puppeteer/puppeteer/pull/15693)<br>[fix(bidi): make page.setCacheEnabled() enable the cache by default](https://github.com/puppeteer/puppeteer/pull/15698)<br>[fix(bidi): return domain cookies for the domain itself in page.cookies()](https://github.com/puppeteer/puppeteer/pull/15689) |
+| [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | ★ 96k | [fix(bidi): send the default accuracy in page.setGeolocation()](https://github.com/puppeteer/puppeteer/pull/15704)<br>[fix(cdp): include null and undefined in ConsoleMessage.text()](https://github.com/puppeteer/puppeteer/pull/15693)<br>[fix(bidi): make page.setCacheEnabled() enable the cache by default](https://github.com/puppeteer/puppeteer/pull/15698)<br>[fix(bidi): return domain cookies for the domain itself in page.cookies()](https://github.com/puppeteer/puppeteer/pull/15689) |
 | [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) | ★ 82k | [JsonWriter writes invalid JSON when usingPairs is used with a named member](https://github.com/spring-projects/spring-boot/pull/52522)<br>[BasicJsonParser does not decode \b, \f, \n, \r, \t and \uXXXX escape sequences](https://github.com/spring-projects/spring-boot/pull/52528)<br>[Plain text thread dump reports threads in Object.wait() as parking on Java 19+](https://github.com/spring-projects/spring-boot/pull/52509)<br>[ECS structured logging writes empty service and service.node objects](https://github.com/spring-projects/spring-boot/pull/52495)<br>[JsonWriter writes NaN and infinite values as invalid JSON](https://github.com/spring-projects/spring-boot/pull/52477) |
 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | ★ 70k | [`@remotion/paths`: Treat arcs with a zero radius as straight lines](https://github.com/remotion-dev/remotion/pull/12859)<br>[`@remotion/paths`: Fix geometry of chained `T` commands after a non-quadratic command](https://github.com/remotion-dev/remotion/pull/12821)<br>[`@remotion/paths`: Fix `getBoundingBox()` for curves starting with a flat tangent](https://github.com/remotion-dev/remotion/pull/12687)<br>[`@remotion/cli`: Accept `--props` files saved with a UTF-8 BOM](https://github.com/remotion-dev/remotion/pull/12645) |
 | [rclone/rclone](https://github.com/rclone/rclone) | ★ 61k | [operations: fix cat --offset before the start of a file printing its end](https://github.com/rclone/rclone/pull/10216) |
@@ -58,13 +59,13 @@ and desktop apps.
 | [psf/black](https://github.com/psf/black) | ★ 42k | [Fix `# fmt: skip` on the last line of a multi-line conditional expression in brackets](https://github.com/psf/black/pull/5647) |
 | [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) | ★ 41k | [fix(VTextarea): keep native undo history with auto-grow](https://github.com/vuetifyjs/vuetify/pull/23279) |
 | [gofiber/fiber](https://github.com/gofiber/fiber) | ★ 40k | [🐛 bug: reject out-of-range int and uint in generic parsers on 32-bit](https://github.com/gofiber/fiber/pull/4832) |
-| [preactjs/preact](https://github.com/preactjs/preact) | ★ 39k | [fix(types): add declarative shadow DOM attributes to `&lt;template>`](https://github.com/preactjs/preact/pull/5338) |
 
 <details>
-<summary>64 more projects</summary>
+<summary>65 more projects</summary>
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
+| [preactjs/preact](https://github.com/preactjs/preact) | ★ 39k | [fix(types): add declarative shadow DOM attributes to `&lt;template>`](https://github.com/preactjs/preact/pull/5338) |
 | [NervJS/taro](https://github.com/NervJS/taro) | ★ 38k | [fix(mini-ci): 修复 Windows 下 devToolsInstallPath 配置校验及开发者工具路径未加引号的问题](https://github.com/NervJS/taro/pull/19579) |
 | [markedjs/marked](https://github.com/markedjs/marked) | ★ 37k | [fix: keep a block quote open after a lazy line in a nested block quote](https://github.com/markedjs/marked/pull/4175) |
 | [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) | ★ 35k | [Read the element locking scripts as UTF-8](https://github.com/dgtlmoon/changedetection.io/pull/4614) |
