@@ -35,7 +35,7 @@ and desktop apps.
 ## Open source contributions
 
 <!-- contributions:start -->
-**111 merged pull requests to 84 projects**, sorted by stars.
+**113 merged pull requests to 84 projects**, sorted by stars.
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -46,7 +46,7 @@ and desktop apps.
 | [mui/material-ui](https://github.com/mui/material-ui) | ★ 99k | [[system] Fix named container queries](https://github.com/mui/material-ui/pull/49649) |
 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | ★ 98k | [Parse a custom property at the end of the input without a trailing `;`](https://github.com/tailwindlabs/tailwindcss/pull/20653)<br>[Don't treat `!important` inside a declaration value as the important flag](https://github.com/tailwindlabs/tailwindcss/pull/20627) |
 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | ★ 97k | [Preserve template namespaces before operator-> and operator->*](https://github.com/NationalSecurityAgency/ghidra/pull/10054) |
-| [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | ★ 96k | [fix(bidi): return domain cookies for the domain itself in page.cookies()](https://github.com/puppeteer/puppeteer/pull/15689) |
+| [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | ★ 96k | [fix(cdp): include null and undefined in ConsoleMessage.text()](https://github.com/puppeteer/puppeteer/pull/15693)<br>[fix(bidi): make page.setCacheEnabled() enable the cache by default](https://github.com/puppeteer/puppeteer/pull/15698)<br>[fix(bidi): return domain cookies for the domain itself in page.cookies()](https://github.com/puppeteer/puppeteer/pull/15689) |
 | [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) | ★ 82k | [JsonWriter writes invalid JSON when usingPairs is used with a named member](https://github.com/spring-projects/spring-boot/pull/52522)<br>[BasicJsonParser does not decode \b, \f, \n, \r, \t and \uXXXX escape sequences](https://github.com/spring-projects/spring-boot/pull/52528)<br>[Plain text thread dump reports threads in Object.wait() as parking on Java 19+](https://github.com/spring-projects/spring-boot/pull/52509)<br>[ECS structured logging writes empty service and service.node objects](https://github.com/spring-projects/spring-boot/pull/52495)<br>[JsonWriter writes NaN and infinite values as invalid JSON](https://github.com/spring-projects/spring-boot/pull/52477) |
 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | ★ 70k | [`@remotion/paths`: Treat arcs with a zero radius as straight lines](https://github.com/remotion-dev/remotion/pull/12859)<br>[`@remotion/paths`: Fix geometry of chained `T` commands after a non-quadratic command](https://github.com/remotion-dev/remotion/pull/12821)<br>[`@remotion/paths`: Fix `getBoundingBox()` for curves starting with a flat tangent](https://github.com/remotion-dev/remotion/pull/12687)<br>[`@remotion/cli`: Accept `--props` files saved with a UTF-8 BOM](https://github.com/remotion-dev/remotion/pull/12645) |
 | [rclone/rclone](https://github.com/rclone/rclone) | ★ 61k | [operations: fix cat --offset before the start of a file printing its end](https://github.com/rclone/rclone/pull/10216) |
