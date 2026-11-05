@@ -35,7 +35,7 @@ and desktop apps.
 ## Open source contributions
 
 <!-- contributions:start -->
-**153 merged pull requests to 105 projects**, sorted by stars.
+**154 merged pull requests to 106 projects**, sorted by stars.
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -61,7 +61,7 @@ and desktop apps.
 | [skylot/jadx](https://github.com/skylot/jadx) | ★ 52k | [fix(core): keep NaN semantics of negated float and double comparisons](https://github.com/skylot/jadx/pull/3048)<br>[fix(core): use Locale.ROOT for case conversion of names](https://github.com/skylot/jadx/pull/3037) |
 
 <details>
-<summary>85 more projects</summary>
+<summary>86 more projects</summary>
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -81,6 +81,7 @@ and desktop apps.
 | [composer/composer](https://github.com/composer/composer) | ★ 30k | [Keep nested objects as objects when JsonManipulator rewrites a node](https://github.com/composer/composer/pull/13210) |
 | [locustio/locust](https://github.com/locustio/locust) | ★ 28k | [Save a locustfile downloaded from a URL byte for byte](https://github.com/locustio/locust/pull/3577) |
 | [recharts/recharts](https://github.com/recharts/recharts) | ★ 28k | [fix(ErrorBar): clip error bars with their graphical item](https://github.com/recharts/recharts/pull/8054)<br>[fix(LabelList): skip labels of elements outside the clipped domain](https://github.com/recharts/recharts/pull/8051) |
+| [quasarframework/quasar](https://github.com/quasarframework/quasar) | ★ 27k | [fix(QSlider/QRange): keep the values aligned to a fractional min](https://github.com/quasarframework/quasar/pull/18578) |
 | [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator) | ★ 27k | [[core] Keep integer minimum/maximum next to $ref/allOf as integers](https://github.com/OpenAPITools/openapi-generator/pull/25441) |
 | [rollup/rollup](https://github.com/rollup/rollup) | ★ 26k | [Merge synthetic named exports into static namespaces when preserving modules](https://github.com/rollup/rollup/pull/6589) |
 | [homebridge/homebridge](https://github.com/homebridge/homebridge) | ★ 26k | [fix: accept a config.json that starts with a UTF-8 BOM](https://github.com/homebridge/homebridge/pull/4039) |
