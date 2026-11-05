@@ -35,7 +35,7 @@ and desktop apps.
 ## Open source contributions
 
 <!-- contributions:start -->
-**156 merged pull requests to 107 projects**, sorted by stars.
+**159 merged pull requests to 108 projects**, sorted by stars.
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -61,7 +61,7 @@ and desktop apps.
 | [skylot/jadx](https://github.com/skylot/jadx) | ★ 52k | [fix(core): keep NaN semantics of negated float and double comparisons](https://github.com/skylot/jadx/pull/3048)<br>[fix(core): use Locale.ROOT for case conversion of names](https://github.com/skylot/jadx/pull/3037) |
 
 <details>
-<summary>87 more projects</summary>
+<summary>88 more projects</summary>
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -79,7 +79,7 @@ and desktop apps.
 | [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) | ★ 33k | [Fix keys of a filtered indexed Seq iterated in reverse](https://github.com/immutable-js/immutable-js/pull/2309)<br>[Fix takeLast(0) on a Seq of unknown size](https://github.com/immutable-js/immutable-js/pull/2313)<br>[Fix keys of an interposed Seq iterated in reverse](https://github.com/immutable-js/immutable-js/pull/2310)<br>[Fix stack overflow when slicing a zipped Seq of unknown size from the end](https://github.com/immutable-js/immutable-js/pull/2311) |
 | [mantinedev/mantine](https://github.com/mantinedev/mantine) | ★ 32k | [[@mantine/hooks] use-mask: Fix generatePattern output being rejected by browsers for masks with # token](https://github.com/mantinedev/mantine/pull/9326) |
 | [chinabugotech/hutool](https://github.com/chinabugotech/hutool) | ★ 30k | [修复默认Locale为土耳其语时忽略大小写的Map及Month/Week/ColorUtil名称解析失效的问题](https://github.com/chinabugotech/hutool/pull/4348) |
-| [composer/composer](https://github.com/composer/composer) | ★ 30k | [Keep nested objects as objects when JsonManipulator rewrites a node](https://github.com/composer/composer/pull/13210) |
+| [composer/composer](https://github.com/composer/composer) | ★ 30k | [Handle keys set to null in JsonManipulator](https://github.com/composer/composer/pull/13225)<br>[Keep nested objects as objects when JsonManipulator rewrites a node](https://github.com/composer/composer/pull/13210) |
 | [locustio/locust](https://github.com/locustio/locust) | ★ 28k | [Save a locustfile downloaded from a URL byte for byte](https://github.com/locustio/locust/pull/3577) |
 | [recharts/recharts](https://github.com/recharts/recharts) | ★ 28k | [fix(ErrorBar): clip error bars with their graphical item](https://github.com/recharts/recharts/pull/8054)<br>[fix(LabelList): skip labels of elements outside the clipped domain](https://github.com/recharts/recharts/pull/8051) |
 | [quasarframework/quasar](https://github.com/quasarframework/quasar) | ★ 27k | [fix(QSlider/QRange): keep the values aligned to a fractional min](https://github.com/quasarframework/quasar/pull/18578) |
@@ -124,7 +124,7 @@ and desktop apps.
 | [dbcli/mycli](https://github.com/dbcli/mycli) | ★ 12k | [Read and write default myclirc as UTF-8](https://github.com/dbcli/mycli/pull/2389) |
 | [foliojs/pdfkit](https://github.com/foliojs/pdfkit) | ★ 11k | [Fix a CommonJS bundle of the Node build throwing on load on Windows](https://github.com/foliojs/pdfkit/pull/1828) |
 | [BYVoid/OpenCC](https://github.com/BYVoid/OpenCC) | ★ 10k | [s2twp：不再將「進程」一律轉為「程序」；tw2sp 保留「行程」（#1313）](https://github.com/BYVoid/OpenCC/pull/1515)<br>[s2twp：不再將「程序」一律轉為「程式」（#1313）](https://github.com/BYVoid/OpenCC/pull/1514)<br>[tw2sp：不再將「執行」一律轉為「運行」（#1313）](https://github.com/BYVoid/OpenCC/pull/1512)<br>[s2twp：不再將「社區」一律轉為「社群」（#1313）](https://github.com/BYVoid/OpenCC/pull/1511)<br>[s2twp：不再將「支持」一律轉為「支援」（#1313）](https://github.com/BYVoid/OpenCC/pull/1510)<br>[s2twp：不再將「高級」一律轉為「高階」（#1313）](https://github.com/BYVoid/OpenCC/pull/1509) |
-| [johnkerl/miller](https://github.com/johnkerl/miller) | ★ 10k | [strmatchx: report starts and ends as UTF-8 character positions](https://github.com/johnkerl/miller/pull/2287) |
+| [johnkerl/miller](https://github.com/johnkerl/miller) | ★ 10k | [Find sh on the PATH when running under Git Bash or MSYS2 on Windows](https://github.com/johnkerl/miller/pull/2289)<br>[strmatchx: report starts and ends as UTF-8 character positions](https://github.com/johnkerl/miller/pull/2287) |
 | [jsx-eslint/eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) | ★ 9.3k | [[Fix] `static-property-placement`: don't report a typed `context` field](https://github.com/jsx-eslint/eslint-plugin-react/pull/4060) |
 | [pdm-project/pdm](https://github.com/pdm-project/pdm) | ★ 8.7k | [fix(python): remove the downloaded archive after installing](https://github.com/pdm-project/pdm/pull/3988) |
 | [bombshell-dev/clack](https://github.com/bombshell-dev/clack) | ★ 8.1k | [fix(prompts): handle trailing backslash in path prompt directory mode](https://github.com/bombshell-dev/clack/pull/627) |
@@ -144,6 +144,7 @@ and desktop apps.
 | [honkit/honkit](https://github.com/honkit/honkit) | ★ 3.5k | [fix: use structure.readme as index.html when README.md also exists](https://github.com/honkit/honkit/pull/535) |
 | [VOICEVOX/voicevox](https://github.com/VOICEVOX/voicevox) | ★ 3.3k | [ci: actionlintを導入し、指摘されたワークフローの問題を修正する](https://github.com/VOICEVOX/voicevox/pull/3156) |
 | [kevin1024/vcrpy](https://github.com/kevin1024/vcrpy) | ★ 3k | [Match urlencoded parameter names in filter_post_data_parameters](https://github.com/kevin1024/vcrpy/pull/1066) |
+| [nical/lyon](https://github.com/nical/lyon) | ★ 2.6k | [Compute cubic bézier extrema without cancellation](https://github.com/nical/lyon/pull/985) |
 | [tracel-ai/cubecl](https://github.com/tracel-ai/cubecl) | ★ 2.5k | [fix: handle negative exponents in integer powi](https://github.com/tracel-ai/cubecl/pull/2043) |
 | [est31/cargo-udeps](https://github.com/est31/cargo-udeps) | ★ 2.1k | [Don't warn about duplicates when a dependency is listed per target](https://github.com/est31/cargo-udeps/pull/343) |
 | [piccolo-orm/piccolo](https://github.com/piccolo-orm/piccolo) | ★ 1.9k | [Return Decimal values from Array(Numeric()) columns in SQLite](https://github.com/piccolo-orm/piccolo/pull/1445) |
