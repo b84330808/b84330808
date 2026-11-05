@@ -1,6 +1,7 @@
 // Rewrites the "Open source contributions" section of README.md
 // from my merged pull requests in repositories I don't own, plus closed ones
-// whose change landed as my own commit (e.g. imported by Copybara).
+// whose change landed as my own commit: imported directly (e.g. by Copybara),
+// or picked into a maintainer's own pull request that was then merged.
 import { readFile, writeFile } from 'node:fs/promises'
 
 const USER = 'b84330808'
@@ -20,7 +21,7 @@ const QUERY = `query ($q: String!, $after: String) {
         number title url mergedAt closedAt
         repository { nameWithOwner url stargazerCount isPrivate }
         timelineItems(itemTypes: [CLOSED_EVENT], last: 1) {
-          nodes { ... on ClosedEvent { closer { ... on Commit { author { user { login } } } } } }
+          nodes { ... on ClosedEvent { closer { ... on Commit { author { user { login } } } ... on PullRequest { number merged repository { nameWithOwner } } } } } }
         }
       }
     }
@@ -53,22 +54,67 @@ async function searchPullRequests(q) {
   return pullRequests
 }
 
+const COMMITS_QUERY = `query ($owner: String!, $name: String!, $number: Int!) {
+  repository(owner: $owner, name: $name) {
+    pullRequest(number: $number) {
+      commits(first: 100) {
+        nodes { commit { author { user { login } } } }
+      }
+    }
+  }
+}`
+
+const myCommitCache = new Map()
+
+async function pullRequestHasMyCommit(owner, name, number) {
+  const key = `${owner}/${name}#${number}`
+  if (!myCommitCache.has(key)) {
+    const res = await fetch('https://api.github.com/graphql', {
+      method: 'POST',
+      headers: {
+        Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        query: COMMITS_QUERY,
+        variables: { owner, name, number },
+      }),
+    })
+    if (!res.ok) throw new Error(`GitHub API ${res.status}: ${await res.text()}`)
+    const { data, errors } = await res.json()
+    if (errors) throw new Error(JSON.stringify(errors))
+    const commits = data.repository?.pullRequest?.commits?.nodes ?? []
+    myCommitCache.set(
+      key,
+      commits.some((node) => node.commit.author?.user?.login === USER),
+    )
+  }
+  return myCommitCache.get(key)
+}
+
 async function fetchMergedPullRequests() {
   const merged = await searchPullRequests(
     `author:${USER} type:pr is:merged -user:${USER}`,
   )
   // A pull request closed by one of my commits landed outside GitHub's merge
-  // button, so treat it as merged at the time it was closed.
-  const landed = (
-    await searchPullRequests(
-      `author:${USER} type:pr is:closed is:unmerged -user:${USER}`,
-    )
+  // button, so treat it as merged at the time it was closed. The closing
+  // commit can also reach the branch inside a maintainer's own pull request
+  // (my commit picked into theirs, theirs merged, mine closed by it).
+  const closed = await searchPullRequests(
+    `author:${USER} type:pr is:closed is:unmerged -user:${USER}`,
   )
-    .filter(
-      (pr) =>
-        pr.timelineItems.nodes[0]?.closer?.author?.user?.login === USER,
-    )
-    .map((pr) => ({ ...pr, mergedAt: pr.closedAt }))
+  const landed = []
+  for (const pr of closed) {
+    const closer = pr.timelineItems.nodes[0]?.closer
+    if (closer?.author?.user?.login === USER) {
+      landed.push({ ...pr, mergedAt: pr.closedAt })
+    } else if (closer?.merged && closer.repository) {
+      const [owner, name] = closer.repository.nameWithOwner.split('/')
+      if (await pullRequestHasMyCommit(owner, name, closer.number)) {
+        landed.push({ ...pr, mergedAt: pr.closedAt })
+      }
+    }
+  }
 
   return [...merged, ...landed].filter(
     (pr) =>
