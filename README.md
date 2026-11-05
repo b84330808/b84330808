@@ -35,7 +35,7 @@ and desktop apps.
 ## Open source contributions
 
 <!-- contributions:start -->
-**159 merged pull requests to 108 projects**, sorted by stars.
+**161 merged pull requests to 109 projects**, sorted by stars.
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -61,7 +61,7 @@ and desktop apps.
 | [skylot/jadx](https://github.com/skylot/jadx) | ★ 52k | [fix(core): keep NaN semantics of negated float and double comparisons](https://github.com/skylot/jadx/pull/3048)<br>[fix(core): use Locale.ROOT for case conversion of names](https://github.com/skylot/jadx/pull/3037) |
 
 <details>
-<summary>88 more projects</summary>
+<summary>89 more projects</summary>
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -84,6 +84,7 @@ and desktop apps.
 | [recharts/recharts](https://github.com/recharts/recharts) | ★ 28k | [fix(ErrorBar): clip error bars with their graphical item](https://github.com/recharts/recharts/pull/8054)<br>[fix(LabelList): skip labels of elements outside the clipped domain](https://github.com/recharts/recharts/pull/8051) |
 | [quasarframework/quasar](https://github.com/quasarframework/quasar) | ★ 27k | [fix(QSlider/QRange): keep the values aligned to a fractional min](https://github.com/quasarframework/quasar/pull/18578) |
 | [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator) | ★ 27k | [[core] Keep integer minimum/maximum next to $ref/allOf as integers](https://github.com/OpenAPITools/openapi-generator/pull/25441) |
+| [apify/crawlee](https://github.com/apify/crawlee) | ★ 26k | [fix(utils): keep whitespace of elements nested in &lt;pre> in htmlToText](https://github.com/apify/crawlee/pull/4348) |
 | [rollup/rollup](https://github.com/rollup/rollup) | ★ 26k | [Merge synthetic named exports into static namespaces when preserving modules](https://github.com/rollup/rollup/pull/6589) |
 | [homebridge/homebridge](https://github.com/homebridge/homebridge) | ★ 26k | [fix: accept a config.json that starts with a UTF-8 BOM](https://github.com/homebridge/homebridge/pull/4039) |
 | [pypa/pipenv](https://github.com/pypa/pipenv) | ★ 25k | [Read the Pipfile as UTF-8 in check, scan and --support](https://github.com/pypa/pipenv/pull/6779)<br>[Read and write the Pipfile as UTF-8 everywhere](https://github.com/pypa/pipenv/pull/6756) |
@@ -101,7 +102,7 @@ and desktop apps.
 | [hubotio/hubot](https://github.com/hubotio/hubot) | ★ 17k | [fix(create): install the default scripts on Windows](https://github.com/hubotio/hubot/pull/1840) |
 | [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | ★ 16k | [fix(sarif): set the log version to 2.1.0](https://github.com/ast-grep/ast-grep/pull/3035) |
 | [scalar/scalar](https://github.com/scalar/scalar) | ★ 16k | [fix(openapi-parser): strip a leading UTF-8 BOM before JSON.parse in normalize](https://github.com/scalar/scalar/pull/10792) |
-| [tracel-ai/burn](https://github.com/tracel-ai/burn) | ★ 16k | [fix(tensor): return fewer chunks instead of panicking in `chunk`](https://github.com/tracel-ai/burn/pull/6263) |
+| [tracel-ai/burn](https://github.com/tracel-ai/burn) | ★ 16k | [fix(backend): truncate integer powers with negative exponents](https://github.com/tracel-ai/burn/pull/6355)<br>[fix(tensor): return fewer chunks instead of panicking in `chunk`](https://github.com/tracel-ai/burn/pull/6263) |
 | [Flow-Launcher/Flow.Launcher](https://github.com/Flow-Launcher/Flow.Launcher) | ★ 16k | [Fix: match .zip extension case-insensitively in IsZipFilePath](https://github.com/Flow-Launcher/Flow.Launcher/pull/4734) |
 | [jasmine/jasmine](https://github.com/jasmine/jasmine) | ★ 16k | [Match bigints with jasmine.any(BigInt) and toBeInstanceOf(BigInt)](https://github.com/jasmine/jasmine/pull/2122) |
 | [Y2Z/monolith](https://github.com/Y2Z/monolith) | ★ 16k | [fix: treat Windows drive-letter paths as local files](https://github.com/Y2Z/monolith/pull/541) |
