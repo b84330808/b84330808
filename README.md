@@ -35,7 +35,7 @@ and desktop apps.
 ## Open source contributions
 
 <!-- contributions:start -->
-**161 merged pull requests to 109 projects**, sorted by stars.
+**162 merged pull requests to 110 projects**, sorted by stars.
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -61,7 +61,7 @@ and desktop apps.
 | [skylot/jadx](https://github.com/skylot/jadx) | ★ 52k | [fix(core): keep NaN semantics of negated float and double comparisons](https://github.com/skylot/jadx/pull/3048)<br>[fix(core): use Locale.ROOT for case conversion of names](https://github.com/skylot/jadx/pull/3037) |
 
 <details>
-<summary>89 more projects</summary>
+<summary>90 more projects</summary>
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -118,6 +118,7 @@ and desktop apps.
 | [plantuml/plantuml](https://github.com/plantuml/plantuml) | ★ 13k | [🐛 Use locale-independent case conversion for stdlib files, SVG attributes and keywords](https://github.com/plantuml/plantuml/pull/2980) |
 | [gogf/gf](https://github.com/gogf/gf) | ★ 13k | [fix(os/gproc): skip unix-only pid mapping folders on windows](https://github.com/gogf/gf/pull/4956) |
 | [orhun/git-cliff](https://github.com/orhun/git-cliff) | ★ 12k | [fix(args): scope --workdir to its directory on Windows](https://github.com/orhun/git-cliff/pull/1657) |
+| [lz4/lz4](https://github.com/lz4/lz4) | ★ 12k | [lz4io: --list: block sizes bounded as by the decoder](https://github.com/lz4/lz4/pull/2044) |
 | [spencermountain/compromise](https://github.com/spencermountain/compromise) | ★ 12k | [read 'twenty second' as 22nd, not twenty seconds](https://github.com/spencermountain/compromise/pull/1261)<br>[split a list of text ordinals](https://github.com/spencermountain/compromise/pull/1259)<br>[don't read 'the twenty fifth of december' as a fraction](https://github.com/spencermountain/compromise/pull/1257)<br>[keep the thousands before a dropped-hundred like 'two fifty'](https://github.com/spencermountain/compromise/pull/1256)<br>[write 'hundred sextillion' at 1e23, not 1e20](https://github.com/spencermountain/compromise/pull/1255)<br>[fix numbers with hundreds inside a thousand or million group](https://github.com/spencermountain/compromise/pull/1254) |
 | [GitoxideLabs/gitoxide](https://github.com/GitoxideLabs/gitoxide) | ★ 12k | [Create `oid` from bytes in one `unsafe` block in `gix-hash`](https://github.com/GitoxideLabs/gitoxide/pull/3157)<br>[Decode into a `String` and forbid `unsafe` in `gix-filter`](https://github.com/GitoxideLabs/gitoxide/pull/3154)<br>[Remove the last `unsafe` block from `gix-revision` and forbid `unsafe` there](https://github.com/GitoxideLabs/gitoxide/pull/3150) |
 | [Milkdown/milkdown](https://github.com/Milkdown/milkdown) | ★ 12k | [fix(preset-commonmark): keep remarkLineBreak linear on long runs of spaces](https://github.com/Milkdown/milkdown/pull/2504) |
