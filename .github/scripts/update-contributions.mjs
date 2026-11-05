@@ -21,7 +21,7 @@ const QUERY = `query ($q: String!, $after: String) {
         number title url mergedAt closedAt
         repository { nameWithOwner url stargazerCount isPrivate }
         timelineItems(itemTypes: [CLOSED_EVENT], last: 1) {
-          nodes { ... on ClosedEvent { closer { ... on Commit { author { user { login } } } ... on PullRequest { number merged repository { nameWithOwner } } } } } }
+          nodes { ... on ClosedEvent { closer { ... on Commit { author { user { login } } } ... on PullRequest { number merged repository { nameWithOwner } } } } }
         }
       }
     }
