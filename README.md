@@ -35,14 +35,14 @@ and desktop apps.
 ## Open source contributions
 
 <!-- contributions:start -->
-**154 merged pull requests to 106 projects**, sorted by stars.
+**156 merged pull requests to 107 projects**, sorted by stars.
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | ★ 201k | [Fix LinearOperatorPermutation.to_dense/diag_part for int64 perm](https://github.com/tensorflow/tensorflow/pull/129844) |
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | ★ 158k | [i18n: complete zh-TW translation and replace Mainland terms](https://github.com/open-webui/open-webui/pull/32482) |
 | [github/spec-kit](https://github.com/github/spec-kit) | ★ 148k | [fix(workflows): decode code-page shell output in Python's UTF-8 mode](https://github.com/github/spec-kit/pull/5209) |
-| [2dust/v2rayN](https://github.com/2dust/v2rayN) | ★ 120k | [fix(fmt): decode the SIP002 plain-text password only once](https://github.com/2dust/v2rayN/pull/10520)<br>[fix(fmt): default the AnyTLS and Naive port to 443 when the link omits it](https://github.com/2dust/v2rayN/pull/10504)<br>[fix(fmt): import legacy base64 SOCKS links again](https://github.com/2dust/v2rayN/pull/10505) |
+| [2dust/v2rayN](https://github.com/2dust/v2rayN) | ★ 120k | [fix(fmt): keep a ':' in a Naive password through export and import](https://github.com/2dust/v2rayN/pull/10526)<br>[fix(fmt): decode the SIP002 plain-text password only once](https://github.com/2dust/v2rayN/pull/10520)<br>[fix(fmt): default the AnyTLS and Naive port to 443 when the link omits it](https://github.com/2dust/v2rayN/pull/10504)<br>[fix(fmt): import legacy base64 SOCKS links again](https://github.com/2dust/v2rayN/pull/10505) |
 | [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | ★ 113k | [fix(utils): keep the drive prefix of absolute resource paths on Windows](https://github.com/tauri-apps/tauri/pull/16453)<br>[fix(utils): match file extensions case-insensitively in MimeType](https://github.com/tauri-apps/tauri/pull/16447)<br>[fix(utils): don't panic parsing a hex Color with non-ASCII characters](https://github.com/tauri-apps/tauri/pull/16444)<br>[fix(cli): percent-decode request paths in the builtin dev server (fix #12763)](https://github.com/tauri-apps/tauri/pull/16436) |
 | [neovim/neovim](https://github.com/neovim/neovim) | ★ 103k | [fix(editorconfig): "[!seq]" glob matches seq instead of excluding it](https://github.com/neovim/neovim/pull/42648) |
 | [mui/material-ui](https://github.com/mui/material-ui) | ★ 99k | [[system] Fix named container queries](https://github.com/mui/material-ui/pull/49649) |
@@ -61,7 +61,7 @@ and desktop apps.
 | [skylot/jadx](https://github.com/skylot/jadx) | ★ 52k | [fix(core): keep NaN semantics of negated float and double comparisons](https://github.com/skylot/jadx/pull/3048)<br>[fix(core): use Locale.ROOT for case conversion of names](https://github.com/skylot/jadx/pull/3037) |
 
 <details>
-<summary>86 more projects</summary>
+<summary>87 more projects</summary>
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -73,6 +73,7 @@ and desktop apps.
 | [preactjs/preact](https://github.com/preactjs/preact) | ★ 39k | [fix(types): add declarative shadow DOM attributes to `&lt;template>`](https://github.com/preactjs/preact/pull/5338) |
 | [NervJS/taro](https://github.com/NervJS/taro) | ★ 38k | [fix(mini-ci): 修复 Windows 下 devToolsInstallPath 配置校验及开发者工具路径未加引号的问题](https://github.com/NervJS/taro/pull/19579) |
 | [markedjs/marked](https://github.com/markedjs/marked) | ★ 37k | [fix: keep a block quote open after a lazy line in a nested block quote](https://github.com/markedjs/marked/pull/4175) |
+| [raysan5/raylib](https://github.com/raysan5/raylib) | ★ 36k | [[rcore] Fix `IsPathDirectory()` returning true for missing paths](https://github.com/raysan5/raylib/pull/6368) |
 | [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) | ★ 36k | [Read the element locking scripts as UTF-8](https://github.com/dgtlmoon/changedetection.io/pull/4614) |
 | [derailed/k9s](https://github.com/derailed/k9s) | ★ 35k | [fix(cmd): keep the -f flag when a command line is rebuilt](https://github.com/derailed/k9s/pull/4356) |
 | [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) | ★ 33k | [Fix keys of a filtered indexed Seq iterated in reverse](https://github.com/immutable-js/immutable-js/pull/2309)<br>[Fix takeLast(0) on a Seq of unknown size](https://github.com/immutable-js/immutable-js/pull/2313)<br>[Fix keys of an interposed Seq iterated in reverse](https://github.com/immutable-js/immutable-js/pull/2310)<br>[Fix stack overflow when slicing a zipped Seq of unknown size from the end](https://github.com/immutable-js/immutable-js/pull/2311) |
@@ -110,8 +111,8 @@ and desktop apps.
 | [josdejong/mathjs](https://github.com/josdejong/mathjs) | ★ 15k | [fix(types): return a collection from statistics functions with a dimension](https://github.com/josdejong/mathjs/pull/3735)<br>[fix: reducing a one dimensional matrix along a dimension threw an error](https://github.com/josdejong/mathjs/pull/3734) |
 | [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) | ★ 15k | [fix: read file:/// custom toolset URLs as file URLs](https://github.com/electron-userland/electron-builder/pull/10504) |
 | [jackc/pgx](https://github.com/jackc/pgx) | ★ 14k | [pgconn: read the default service file from %APPDATA%\postgresql on Windows](https://github.com/jackc/pgx/pull/2697) |
-| [plasma-umass/scalene](https://github.com/plasma-umass/scalene) | ★ 14k | [Save %%scalene cells as UTF-8](https://github.com/plasma-umass/scalene/pull/1106) |
 | [fuma-nama/fumadocs](https://github.com/fuma-nama/fumadocs) | ★ 14k | [fix(openapi, asyncapi): resolve index card links from the output directory](https://github.com/fuma-nama/fumadocs/pull/3752) |
+| [plasma-umass/scalene](https://github.com/plasma-umass/scalene) | ★ 14k | [Save %%scalene cells as UTF-8](https://github.com/plasma-umass/scalene/pull/1106) |
 | [dbcli/pgcli](https://github.com/dbcli/pgcli) | ★ 13k | [Read alias_map_file as UTF-8 instead of the locale encoding](https://github.com/dbcli/pgcli/pull/1656) |
 | [plantuml/plantuml](https://github.com/plantuml/plantuml) | ★ 13k | [🐛 Use locale-independent case conversion for stdlib files, SVG attributes and keywords](https://github.com/plantuml/plantuml/pull/2980) |
 | [gogf/gf](https://github.com/gogf/gf) | ★ 13k | [fix(os/gproc): skip unix-only pid mapping folders on windows](https://github.com/gogf/gf/pull/4956) |
