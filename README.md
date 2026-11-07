@@ -35,11 +35,12 @@ and desktop apps.
 ## Open source contributions
 
 <!-- contributions:start -->
-**177 merged pull requests to 120 projects**, sorted by stars.
+**186 merged pull requests to 127 projects**, sorted by stars.
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | ★ 201k | [Fix LinearOperatorPermutation.to_dense/diag_part for int64 perm](https://github.com/tensorflow/tensorflow/pull/129844) |
+| [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | ★ 190k | [fix(timer): round duration before splitting off minutes](https://github.com/ohmyzsh/ohmyzsh/pull/14246) |
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | ★ 158k | [i18n: complete zh-TW translation and replace Mainland terms](https://github.com/open-webui/open-webui/pull/32482) |
 | [github/spec-kit](https://github.com/github/spec-kit) | ★ 148k | [fix(workflows): decode code-page shell output in Python's UTF-8 mode](https://github.com/github/spec-kit/pull/5209) |
 | [2dust/v2rayN](https://github.com/2dust/v2rayN) | ★ 120k | [fix(fmt): keep a ':' in a Naive password through export and import](https://github.com/2dust/v2rayN/pull/10526)<br>[fix(fmt): decode the SIP002 plain-text password only once](https://github.com/2dust/v2rayN/pull/10520)<br>[fix(fmt): default the AnyTLS and Naive port to 443 when the link omits it](https://github.com/2dust/v2rayN/pull/10504)<br>[fix(fmt): import legacy base64 SOCKS links again](https://github.com/2dust/v2rayN/pull/10505) |
@@ -58,13 +59,13 @@ and desktop apps.
 | [rclone/rclone](https://github.com/rclone/rclone) | ★ 61k | [operations: fix cat --offset before the start of a file printing its end](https://github.com/rclone/rclone/pull/10216) |
 | [rails/rails](https://github.com/rails/rails) | ★ 59k | [Fix `one?` and `many?` on grouped relations](https://github.com/rails/rails/pull/59559) |
 | [laurent22/joplin](https://github.com/laurent22/joplin) | ★ 57k | [All: Translation: Update zh_TW.po](https://github.com/laurent22/joplin/pull/16853) |
-| [prettier/prettier](https://github.com/prettier/prettier) | ★ 52k | [Add tests for NO-BREAK SPACE next to CJK in Markdown](https://github.com/prettier/prettier/pull/20321) |
 
 <details>
-<summary>100 more projects</summary>
+<summary>107 more projects</summary>
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
+| [prettier/prettier](https://github.com/prettier/prettier) | ★ 52k | [Add tests for NO-BREAK SPACE next to CJK in Markdown](https://github.com/prettier/prettier/pull/20321) |
 | [google/guava](https://github.com/google/guava) | ★ 52k | [Fix `Graphs.hasCycle` missing cycles in undirected graphs](https://github.com/google/guava/pull/8796) |
 | [skylot/jadx](https://github.com/skylot/jadx) | ★ 52k | [fix(core): keep NaN semantics of negated float and double comparisons](https://github.com/skylot/jadx/pull/3048)<br>[fix(core): use Locale.ROOT for case conversion of names](https://github.com/skylot/jadx/pull/3037) |
 | [slidevjs/slidev](https://github.com/slidevjs/slidev) | ★ 49k | [fix(parser): ignore a leading UTF-8 BOM](https://github.com/slidevjs/slidev/pull/2802) |
@@ -79,14 +80,16 @@ and desktop apps.
 | [restic/restic](https://github.com/restic/restic) | ★ 37k | [data: return an error for too large numbers in ParseDuration](https://github.com/restic/restic/pull/22163) |
 | [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) | ★ 36k | [Read the element locking scripts as UTF-8](https://github.com/dgtlmoon/changedetection.io/pull/4614) |
 | [raysan5/raylib](https://github.com/raysan5/raylib) | ★ 36k | [[rcore] Fix `IsPathDirectory()` returning true for missing paths](https://github.com/raysan5/raylib/pull/6368) |
+| [netty/netty](https://github.com/netty/netty) | ★ 35k | [Encode the char after an unpaired high surrogate in writeUtf8(...)](https://github.com/netty/netty/pull/18252) |
 | [derailed/k9s](https://github.com/derailed/k9s) | ★ 35k | [fix(cmd): keep the -f flag when a command line is rebuilt](https://github.com/derailed/k9s/pull/4356) |
 | [immutable-js/immutable-js](https://github.com/immutable-js/immutable-js) | ★ 33k | [Fix keys of a filtered indexed Seq iterated in reverse](https://github.com/immutable-js/immutable-js/pull/2309)<br>[Fix takeLast(0) on a Seq of unknown size](https://github.com/immutable-js/immutable-js/pull/2313)<br>[Fix keys of an interposed Seq iterated in reverse](https://github.com/immutable-js/immutable-js/pull/2310)<br>[Fix stack overflow when slicing a zipped Seq of unknown size from the end](https://github.com/immutable-js/immutable-js/pull/2311) |
 | [mantinedev/mantine](https://github.com/mantinedev/mantine) | ★ 32k | [[@mantine/hooks] use-mask: Fix generatePattern output being rejected by browsers for masks with # token](https://github.com/mantinedev/mantine/pull/9326) |
-| [symfony/symfony](https://github.com/symfony/symfony) | ★ 31k | [[Console] Count wide characters as two columns when wrapping and truncating](https://github.com/symfony/symfony/pull/67890) |
+| [symfony/symfony](https://github.com/symfony/symfony) | ★ 32k | [[Console] Count wide characters as two columns when wrapping and truncating](https://github.com/symfony/symfony/pull/67890) |
 | [chinabugotech/hutool](https://github.com/chinabugotech/hutool) | ★ 30k | [修复默认Locale为土耳其语时忽略大小写的Map及Month/Week/ColorUtil名称解析失效的问题](https://github.com/chinabugotech/hutool/pull/4348) |
 | [composer/composer](https://github.com/composer/composer) | ★ 30k | [Handle keys set to null in JsonManipulator](https://github.com/composer/composer/pull/13225)<br>[Keep nested objects as objects when JsonManipulator rewrites a node](https://github.com/composer/composer/pull/13210) |
+| [pydantic/pydantic](https://github.com/pydantic/pydantic) | ★ 29k | [Fix `Decimal` JSON Schema patterns accepting bare `0` when no whole digits are allowed](https://github.com/pydantic/pydantic/pull/14244) |
 | [locustio/locust](https://github.com/locustio/locust) | ★ 28k | [Save a locustfile downloaded from a URL byte for byte](https://github.com/locustio/locust/pull/3577) |
-| [mobxjs/mobx](https://github.com/mobxjs/mobx) | ★ 28k | [fix(mobx): don't track observable set mutations in the running derivation](https://github.com/mobxjs/mobx/pull/4765) |
+| [mobxjs/mobx](https://github.com/mobxjs/mobx) | ★ 28k | [perf(mobx): check for Object.prototype first in isPlainObject](https://github.com/mobxjs/mobx/pull/4772)<br>[fix(mobx): don't track observable set mutations in the running derivation](https://github.com/mobxjs/mobx/pull/4765) |
 | [recharts/recharts](https://github.com/recharts/recharts) | ★ 28k | [fix(ErrorBar): clip error bars with their graphical item](https://github.com/recharts/recharts/pull/8054)<br>[fix(LabelList): skip labels of elements outside the clipped domain](https://github.com/recharts/recharts/pull/8051) |
 | [quasarframework/quasar](https://github.com/quasarframework/quasar) | ★ 27k | [fix(QSlider/QRange): keep the values aligned to a fractional min](https://github.com/quasarframework/quasar/pull/18578) |
 | [OpenAPITools/openapi-generator](https://github.com/OpenAPITools/openapi-generator) | ★ 27k | [[core] Keep integer minimum/maximum next to $ref/allOf as integers](https://github.com/OpenAPITools/openapi-generator/pull/25441) |
@@ -97,8 +100,10 @@ and desktop apps.
 | [go-delve/delve](https://github.com/go-delve/delve) | ★ 25k | [proc: wrap unary - and ^ results to the operand's integer type](https://github.com/go-delve/delve/pull/4459) |
 | [actix/actix-web](https://github.com/actix/actix-web) | ★ 25k | [fix(multipart): keep bare CR before boundary text as field data](https://github.com/actix/actix-web/pull/4376) |
 | [plotly/dash](https://github.com/plotly/dash) | ★ 24k | [Decode the pages router pathname before matching it](https://github.com/plotly/dash/pull/4074) |
+| [Delgan/loguru](https://github.com/Delgan/loguru) | ★ 24k | [Fix logger.parse() decoding paths with the locale encoding](https://github.com/Delgan/loguru/pull/1540) |
 | [react-grid-layout/react-grid-layout](https://github.com/react-grid-layout/react-grid-layout) | ★ 22k | [fix: stop edge auto-scroll when the dropping placeholder unmounts (#2312)](https://github.com/react-grid-layout/react-grid-layout/pull/2314) |
 | [redis/go-redis](https://github.com/redis/go-redis) | ★ 22k | [fix(cmd): reject out-of-range Int() on 32-bit](https://github.com/redis/go-redis/pull/4256) |
+| [tornadoweb/tornado](https://github.com/tornadoweb/tornado) | ★ 22k | [wsgi: Discard the response body for HEAD requests](https://github.com/tornadoweb/tornado/pull/3830)<br>[autoreload: Use importlib.util.find_spec instead of pkgutil.get_loader](https://github.com/tornadoweb/tornado/pull/3849) |
 | [jsdom/jsdom](https://github.com/jsdom/jsdom) | ★ 22k | [Fix template elements in XHTML: prefixed parsing and innerHTML](https://github.com/jsdom/jsdom/pull/4408) |
 | [sveltejs/kit](https://github.com/sveltejs/kit) | ★ 21k | [fix(enhanced-img): compute the missing dimension at runtime for imported images](https://github.com/sveltejs/kit/pull/17499) |
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | ★ 20k | [openapi: look up service comments by declaration index](https://github.com/grpc-ecosystem/grpc-gateway/pull/7600) |
@@ -128,8 +133,8 @@ and desktop apps.
 | [orhun/git-cliff](https://github.com/orhun/git-cliff) | ★ 12k | [fix(args): scope --workdir to its directory on Windows](https://github.com/orhun/git-cliff/pull/1657) |
 | [spencermountain/compromise](https://github.com/spencermountain/compromise) | ★ 12k | [read 'twenty second' as 22nd, not twenty seconds](https://github.com/spencermountain/compromise/pull/1261)<br>[split a list of text ordinals](https://github.com/spencermountain/compromise/pull/1259)<br>[don't read 'the twenty fifth of december' as a fraction](https://github.com/spencermountain/compromise/pull/1257)<br>[keep the thousands before a dropped-hundred like 'two fifty'](https://github.com/spencermountain/compromise/pull/1256)<br>[write 'hundred sextillion' at 1e23, not 1e20](https://github.com/spencermountain/compromise/pull/1255)<br>[fix numbers with hundreds inside a thousand or million group](https://github.com/spencermountain/compromise/pull/1254) |
 | [GitoxideLabs/gitoxide](https://github.com/GitoxideLabs/gitoxide) | ★ 12k | [Create `oid` from bytes in one `unsafe` block in `gix-hash`](https://github.com/GitoxideLabs/gitoxide/pull/3157)<br>[Decode into a `String` and forbid `unsafe` in `gix-filter`](https://github.com/GitoxideLabs/gitoxide/pull/3154)<br>[Remove the last `unsafe` block from `gix-revision` and forbid `unsafe` there](https://github.com/GitoxideLabs/gitoxide/pull/3150) |
-| [Milkdown/milkdown](https://github.com/Milkdown/milkdown) | ★ 12k | [fix(preset-commonmark): keep remarkLineBreak linear on long runs of spaces](https://github.com/Milkdown/milkdown/pull/2504) |
 | [esphome/esphome](https://github.com/esphome/esphome) | ★ 12k | [[core] Reject a 0 K color temperature instead of crashing](https://github.com/esphome/esphome/pull/21756) |
+| [Milkdown/milkdown](https://github.com/Milkdown/milkdown) | ★ 12k | [fix(preset-commonmark): keep remarkLineBreak linear on long runs of spaces](https://github.com/Milkdown/milkdown/pull/2504) |
 | [dbcli/mycli](https://github.com/dbcli/mycli) | ★ 12k | [Read and write default myclirc as UTF-8](https://github.com/dbcli/mycli/pull/2389) |
 | [foliojs/pdfkit](https://github.com/foliojs/pdfkit) | ★ 11k | [Fix a CommonJS bundle of the Node build throwing on load on Windows](https://github.com/foliojs/pdfkit/pull/1828) |
 | [BYVoid/OpenCC](https://github.com/BYVoid/OpenCC) | ★ 10k | [s2twp：不再將「進程」一律轉為「程序」；tw2sp 保留「行程」（#1313）](https://github.com/BYVoid/OpenCC/pull/1515)<br>[s2twp：不再將「程序」一律轉為「程式」（#1313）](https://github.com/BYVoid/OpenCC/pull/1514)<br>[tw2sp：不再將「執行」一律轉為「運行」（#1313）](https://github.com/BYVoid/OpenCC/pull/1512)<br>[s2twp：不再將「社區」一律轉為「社群」（#1313）](https://github.com/BYVoid/OpenCC/pull/1511)<br>[s2twp：不再將「支持」一律轉為「支援」（#1313）](https://github.com/BYVoid/OpenCC/pull/1510)<br>[s2twp：不再將「高級」一律轉為「高階」（#1313）](https://github.com/BYVoid/OpenCC/pull/1509) |
@@ -138,6 +143,7 @@ and desktop apps.
 | [pdm-project/pdm](https://github.com/pdm-project/pdm) | ★ 8.7k | [fix(python): remove the downloaded archive after installing](https://github.com/pdm-project/pdm/pull/3988) |
 | [bombshell-dev/clack](https://github.com/bombshell-dev/clack) | ★ 8.1k | [fix(prompts): handle trailing backslash in path prompt directory mode](https://github.com/bombshell-dev/clack/pull/627) |
 | [FullHuman/purgecss](https://github.com/FullHuman/purgecss) | ★ 8.1k | [fix(#1326): load the config file from a file URL](https://github.com/FullHuman/purgecss/pull/1505) |
+| [jarun/buku](https://github.com/jarun/buku) | ★ 7.3k | [Find the editor on PATH so .cmd editors work on Windows](https://github.com/jarun/buku/pull/918) |
 | [unovue/reka-ui](https://github.com/unovue/reka-ui) | ★ 6.9k | [fix(Tabs): don't activate tabs on right or middle click](https://github.com/unovue/reka-ui/pull/3027) |
 | [mui/mui-x](https://github.com/mui/mui-x) | ★ 5.9k | [[pickers] Only scroll the Digital Clock when its active item changes](https://github.com/mui/mui-x/pull/23942) |
 | [rhaiscript/rhai](https://github.com/rhaiscript/rhai) | ★ 5.8k | [Do not hang when padding a string with an empty string](https://github.com/rhaiscript/rhai/pull/1195) |
@@ -153,12 +159,13 @@ and desktop apps.
 | [honkit/honkit](https://github.com/honkit/honkit) | ★ 3.5k | [fix: use structure.readme as index.html when README.md also exists](https://github.com/honkit/honkit/pull/535) |
 | [msgpack/msgpack-c](https://github.com/msgpack/msgpack-c) | ★ 3.4k | [zbuffer: handle a zero init_size and sizes wider than zlib's counters](https://github.com/msgpack/msgpack-c/pull/1205) |
 | [VOICEVOX/voicevox](https://github.com/VOICEVOX/voicevox) | ★ 3.3k | [ci: actionlintを導入し、指摘されたワークフローの問題を修正する](https://github.com/VOICEVOX/voicevox/pull/3156) |
+| [aandrew-me/tgpt](https://github.com/aandrew-me/tgpt) | ★ 3.3k | [fix(tools): stop glob "*" matching across directories on Windows](https://github.com/aandrew-me/tgpt/pull/528) |
 | [open62541/open62541](https://github.com/open62541/open62541) | ★ 3.3k | [fix(types): reject integers that wrap around in parseUInt64](https://github.com/open62541/open62541/pull/8678) |
 | [kevin1024/vcrpy](https://github.com/kevin1024/vcrpy) | ★ 3k | [Match urlencoded parameter names in filter_post_data_parameters](https://github.com/kevin1024/vcrpy/pull/1066) |
 | [nical/lyon](https://github.com/nical/lyon) | ★ 2.6k | [Compute cubic bézier extrema without cancellation](https://github.com/nical/lyon/pull/985) |
 | [tracel-ai/cubecl](https://github.com/tracel-ai/cubecl) | ★ 2.5k | [fix: handle negative exponents in integer powi](https://github.com/tracel-ai/cubecl/pull/2043) |
 | [est31/cargo-udeps](https://github.com/est31/cargo-udeps) | ★ 2.1k | [Don't warn about duplicates when a dependency is listed per target](https://github.com/est31/cargo-udeps/pull/343) |
-| [piccolo-orm/piccolo](https://github.com/piccolo-orm/piccolo) | ★ 1.9k | [Return Decimal values from Array(Numeric()) columns in SQLite](https://github.com/piccolo-orm/piccolo/pull/1445) |
+| [piccolo-orm/piccolo](https://github.com/piccolo-orm/piccolo) | ★ 2k | [Return Decimal values from Array(Numeric()) columns in SQLite](https://github.com/piccolo-orm/piccolo/pull/1445) |
 | [PCRE2Project/pcre2](https://github.com/PCRE2Project/pcre2) | ★ 1.4k | [pcre2_substitute: reset \Q literal mode for each replacement](https://github.com/PCRE2Project/pcre2/pull/1065) |
 | [wenet-e2e/WeTextProcessing](https://github.com/wenet-e2e/WeTextProcessing) | ★ 835 | [fix: read digit-grouped numbers outside of Measure](https://github.com/wenet-e2e/WeTextProcessing/pull/404)<br>[fix: read 110, 120, etc. as phone numbers only when the context says so](https://github.com/wenet-e2e/WeTextProcessing/pull/402) |
 | [un-ts/eslint-plugin-import-x](https://github.com/un-ts/eslint-plugin-import-x) | ★ 781 | [fix(no-cycle): detect cycles through side-effect imports](https://github.com/un-ts/eslint-plugin-import-x/pull/538) |
