@@ -35,7 +35,7 @@ and desktop apps.
 ## Open source contributions
 
 <!-- contributions:start -->
-**224 merged pull requests to 148 projects**, sorted by stars.
+**225 merged pull requests to 149 projects**, sorted by stars.
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -47,8 +47,8 @@ and desktop apps.
 | [2dust/v2rayN](https://github.com/2dust/v2rayN) | ★ 120k | [fix(fmt): keep a ':' in a Naive password through export and import](https://github.com/2dust/v2rayN/pull/10526)<br>[fix(fmt): decode the SIP002 plain-text password only once](https://github.com/2dust/v2rayN/pull/10520)<br>[fix(fmt): default the AnyTLS and Naive port to 443 when the link omits it](https://github.com/2dust/v2rayN/pull/10504)<br>[fix(fmt): import legacy base64 SOCKS links again](https://github.com/2dust/v2rayN/pull/10505) |
 | [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | ★ 113k | [fix(utils): keep the drive prefix of absolute resource paths on Windows](https://github.com/tauri-apps/tauri/pull/16453)<br>[fix(utils): match file extensions case-insensitively in MimeType](https://github.com/tauri-apps/tauri/pull/16447)<br>[fix(utils): don't panic parsing a hex Color with non-ASCII characters](https://github.com/tauri-apps/tauri/pull/16444)<br>[fix(cli): percent-decode request paths in the builtin dev server (fix #12763)](https://github.com/tauri-apps/tauri/pull/16436) |
 | [neovim/neovim](https://github.com/neovim/neovim) | ★ 104k | [perf(treesitter): don't touch finished trees on every redraw](https://github.com/neovim/neovim/pull/42735)<br>[fix(editorconfig): "?" glob matches "/"](https://github.com/neovim/neovim/pull/42671)<br>[fix(editorconfig): invalid glob breaks other sections](https://github.com/neovim/neovim/pull/42693)<br>[fix(editorconfig): "[!seq]" glob matches seq instead of excluding it](https://github.com/neovim/neovim/pull/42648) |
-| [mui/material-ui](https://github.com/mui/material-ui) | ★ 99k | [[system] Keep the alpha of `color()` colors in the color manipulators](https://github.com/mui/material-ui/pull/49637)<br>[[slider] Keep the decimals of a non-integer min when snapping to the step](https://github.com/mui/material-ui/pull/49635)<br>[[system] Fix named container queries](https://github.com/mui/material-ui/pull/49649) |
 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | ★ 99k | [Preserve template namespaces before operator-> and operator->*](https://github.com/NationalSecurityAgency/ghidra/pull/10054) |
+| [mui/material-ui](https://github.com/mui/material-ui) | ★ 99k | [[system] Keep the alpha of `color()` colors in the color manipulators](https://github.com/mui/material-ui/pull/49637)<br>[[slider] Keep the decimals of a non-integer min when snapping to the step](https://github.com/mui/material-ui/pull/49635)<br>[[system] Fix named container queries](https://github.com/mui/material-ui/pull/49649) |
 | [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) | ★ 99k | [Ignore `&lt;!--` and `-->` between top-level rules in the CSS parser](https://github.com/tailwindlabs/tailwindcss/pull/20665)<br>[Parse a custom property at the end of the input without a trailing `;`](https://github.com/tailwindlabs/tailwindcss/pull/20653)<br>[Don't treat `!important` inside a declaration value as the important flag](https://github.com/tailwindlabs/tailwindcss/pull/20627) |
 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | ★ 96k | [fix(bidi): respect waitForFonts in page.pdf()](https://github.com/puppeteer/puppeteer/pull/15714)<br>[fix(bidi): send the default accuracy in page.setGeolocation()](https://github.com/puppeteer/puppeteer/pull/15704)<br>[fix(cdp): include null and undefined in ConsoleMessage.text()](https://github.com/puppeteer/puppeteer/pull/15693)<br>[fix(bidi): make page.setCacheEnabled() enable the cache by default](https://github.com/puppeteer/puppeteer/pull/15698)<br>[fix(bidi): return domain cookies for the domain itself in page.cookies()](https://github.com/puppeteer/puppeteer/pull/15689) |
 | [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | ★ 96k | [[Fix] `nvm_get_default_packages`: ignore CRLF line endings](https://github.com/nvm-sh/nvm/pull/3979)<br>[[Fix] `nvm_die_on_prefix`: check a nonexistent prefix on Windows](https://github.com/nvm-sh/nvm/pull/3972) |
@@ -61,7 +61,7 @@ and desktop apps.
 | [sharkdp/bat](https://github.com/sharkdp/bat) | ★ 61k | [Make full-path syntax mappings work on Windows](https://github.com/sharkdp/bat/pull/4113) |
 
 <details>
-<summary>128 more projects</summary>
+<summary>129 more projects</summary>
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -124,6 +124,7 @@ and desktop apps.
 | [ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick) | ★ 18k | [Parse SVG path arc flags as single digits](https://github.com/ImageMagick/ImageMagick/pull/9096) |
 | [tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts) | ★ 18k | [fix: format default tick marks in UTC so DST gaps don't shift labels](https://github.com/tradingview/lightweight-charts/pull/2175) |
 | [video-dev/hls.js](https://github.com/video-dev/hls.js) | ★ 17k | [Load the start fragment again when its request is aborted before anything is buffered](https://github.com/video-dev/hls.js/pull/8115) |
+| [systemd/systemd](https://github.com/systemd/systemd) | ★ 17k | [time-util: fix operator precedence in format_timestamp_style() size check](https://github.com/systemd/systemd/pull/44676) |
 | [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib) | ★ 17k | [Cap a send() or wolfSSL_read() length at INT_MAX](https://github.com/yhirose/cpp-httplib/pull/2655) |
 | [hubotio/hubot](https://github.com/hubotio/hubot) | ★ 17k | [fix(create): install the default scripts on Windows](https://github.com/hubotio/hubot/pull/1840) |
 | [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep) | ★ 17k | [fix(sarif): set the log version to 2.1.0](https://github.com/ast-grep/ast-grep/pull/3035) |
@@ -190,7 +191,7 @@ and desktop apps.
 | [PCRE2Project/pcre2](https://github.com/PCRE2Project/pcre2) | ★ 1.4k | [pcre2_substitute: reset \Q literal mode for each replacement](https://github.com/PCRE2Project/pcre2/pull/1065) |
 | [wenet-e2e/WeTextProcessing](https://github.com/wenet-e2e/WeTextProcessing) | ★ 837 | [fix: read digit-grouped numbers outside of Measure](https://github.com/wenet-e2e/WeTextProcessing/pull/404)<br>[fix: read 110, 120, etc. as phone numbers only when the context says so](https://github.com/wenet-e2e/WeTextProcessing/pull/402) |
 | [un-ts/eslint-plugin-import-x](https://github.com/un-ts/eslint-plugin-import-x) | ★ 782 | [fix(no-cycle): detect cycles through side-effect imports](https://github.com/un-ts/eslint-plugin-import-x/pull/538) |
-| [run-llama/llama-agents](https://github.com/run-llama/llama-agents) | ★ 464 | [Don't report idle while sent events are undelivered](https://github.com/run-llama/llama-agents/pull/817) |
+| [run-llama/llama-agents](https://github.com/run-llama/llama-agents) | ★ 465 | [Don't report idle while sent events are undelivered](https://github.com/run-llama/llama-agents/pull/817) |
 | [Migushthe2nd/MsEdgeTTS](https://github.com/Migushthe2nd/MsEdgeTTS) | ★ 347 | [docs: clarify toFile() output files and where prosody options go](https://github.com/Migushthe2nd/MsEdgeTTS/pull/40) |
 | [textlint-ja/textlint-rule-ja-no-successive-word](https://github.com/textlint-ja/textlint-rule-ja-no-successive-word) | ★ 7 | [feat: 記号や空白の連続を許可するオプションを追加](https://github.com/textlint-ja/textlint-rule-ja-no-successive-word/pull/36) |
 
