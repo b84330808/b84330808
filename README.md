@@ -35,7 +35,7 @@ and desktop apps.
 ## Open source contributions
 
 <!-- contributions:start -->
-**258 merged pull requests to 173 projects**, sorted by stars.
+**266 merged pull requests to 179 projects**, sorted by stars.
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -43,10 +43,10 @@ and desktop apps.
 | [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | ★ 191k | [fix(timer): round duration before splitting off minutes](https://github.com/ohmyzsh/ohmyzsh/pull/14246) |
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | ★ 159k | [i18n: complete zh-TW translation and replace Mainland terms](https://github.com/open-webui/open-webui/pull/32482) |
 | [github/spec-kit](https://github.com/github/spec-kit) | ★ 150k | [fix(workflows): decode code-page shell output in Python's UTF-8 mode](https://github.com/github/spec-kit/pull/5209) |
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | ★ 143k | [perf(video): composite on an opaque canvas so frames carry no mask](https://github.com/harry0703/MoneyPrinterTurbo/pull/1779) |
-| [2dust/v2rayN](https://github.com/2dust/v2rayN) | ★ 121k | [perf: look up ProfileEx items by IndexId instead of scanning the list](https://github.com/2dust/v2rayN/pull/10588)<br>[fix(fmt): keep a ':' in a Naive password through export and import](https://github.com/2dust/v2rayN/pull/10526)<br>[fix(fmt): decode the SIP002 plain-text password only once](https://github.com/2dust/v2rayN/pull/10520)<br>[fix(fmt): default the AnyTLS and Naive port to 443 when the link omits it](https://github.com/2dust/v2rayN/pull/10504)<br>[fix(fmt): import legacy base64 SOCKS links again](https://github.com/2dust/v2rayN/pull/10505) |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | ★ 144k | [perf(video): composite on an opaque canvas so frames carry no mask](https://github.com/harry0703/MoneyPrinterTurbo/pull/1779) |
+| [2dust/v2rayN](https://github.com/2dust/v2rayN) | ★ 121k | [fix(ui): show ALPN values that are not in the preset list](https://github.com/2dust/v2rayN/pull/10604)<br>[perf: look up ProfileEx items by IndexId instead of scanning the list](https://github.com/2dust/v2rayN/pull/10588)<br>[fix(fmt): keep a ':' in a Naive password through export and import](https://github.com/2dust/v2rayN/pull/10526)<br>[fix(fmt): decode the SIP002 plain-text password only once](https://github.com/2dust/v2rayN/pull/10520)<br>[fix(fmt): default the AnyTLS and Naive port to 443 when the link omits it](https://github.com/2dust/v2rayN/pull/10504)<br>[fix(fmt): import legacy base64 SOCKS links again](https://github.com/2dust/v2rayN/pull/10505) |
 | [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | ★ 113k | [fix(utils): keep the drive prefix of absolute resource paths on Windows](https://github.com/tauri-apps/tauri/pull/16453)<br>[fix(utils): match file extensions case-insensitively in MimeType](https://github.com/tauri-apps/tauri/pull/16447)<br>[fix(utils): don't panic parsing a hex Color with non-ASCII characters](https://github.com/tauri-apps/tauri/pull/16444)<br>[fix(cli): percent-decode request paths in the builtin dev server (fix #12763)](https://github.com/tauri-apps/tauri/pull/16436) |
-| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | ★ 110k | [fix(omnivoice-gguf): find the bundled runtime from a staged app environment](https://github.com/debpalash/VoiceStudio/pull/4053) |
+| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | ★ 111k | [fix(omnivoice-gguf): find the bundled runtime from a staged app environment](https://github.com/debpalash/VoiceStudio/pull/4053) |
 | [neovim/neovim](https://github.com/neovim/neovim) | ★ 104k | [perf(treesitter): don't touch finished trees on every redraw](https://github.com/neovim/neovim/pull/42735)<br>[fix(editorconfig): "?" glob matches "/"](https://github.com/neovim/neovim/pull/42671)<br>[fix(editorconfig): invalid glob breaks other sections](https://github.com/neovim/neovim/pull/42693)<br>[fix(editorconfig): "[!seq]" glob matches seq instead of excluding it](https://github.com/neovim/neovim/pull/42648) |
 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | ★ 100k | [Preserve template namespaces before operator-> and operator->*](https://github.com/NationalSecurityAgency/ghidra/pull/10054) |
 | [mui/material-ui](https://github.com/mui/material-ui) | ★ 99k | [[system] Keep the unit of container query sizes](https://github.com/mui/material-ui/pull/49669)<br>[[system] Keep the alpha of `color()` colors in the color manipulators](https://github.com/mui/material-ui/pull/49637)<br>[[slider] Keep the decimals of a non-integer min when snapping to the step](https://github.com/mui/material-ui/pull/49635)<br>[[system] Fix named container queries](https://github.com/mui/material-ui/pull/49649) |
@@ -54,14 +54,14 @@ and desktop apps.
 | [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | ★ 96k | [[Fix] `nvm_get_default_packages`: ignore CRLF line endings](https://github.com/nvm-sh/nvm/pull/3979)<br>[[Fix] `nvm_die_on_prefix`: check a nonexistent prefix on Windows](https://github.com/nvm-sh/nvm/pull/3972) |
 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | ★ 96k | [fix(bidi): respect waitForFonts in page.pdf()](https://github.com/puppeteer/puppeteer/pull/15714)<br>[fix(bidi): send the default accuracy in page.setGeolocation()](https://github.com/puppeteer/puppeteer/pull/15704)<br>[fix(cdp): include null and undefined in ConsoleMessage.text()](https://github.com/puppeteer/puppeteer/pull/15693)<br>[fix(bidi): make page.setCacheEnabled() enable the cache by default](https://github.com/puppeteer/puppeteer/pull/15698)<br>[fix(bidi): return domain cookies for the domain itself in page.cookies()](https://github.com/puppeteer/puppeteer/pull/15689) |
 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | ★ 91k | [fix(monitors): match keywords written in non-Latin scripts](https://github.com/koala73/worldmonitor/pull/10574) |
-| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | ★ 82k | [fix(hired-share): hand start the whole prefilled URL on Windows](https://github.com/career-ops-hq/career-ops/pull/7009) |
+| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | ★ 83k | [fix(hired-share): hand start the whole prefilled URL on Windows](https://github.com/career-ops-hq/career-ops/pull/7009) |
 | [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) | ★ 82k | [Setting management.observations.conventions to open-telemetry enables neither semantic convention](https://github.com/spring-projects/spring-boot/pull/52619)<br>[JsonWriter writes invalid JSON when usingPairs is used with a named member](https://github.com/spring-projects/spring-boot/pull/52522)<br>[BasicJsonParser does not decode \b, \f, \n, \r, \t and \uXXXX escape sequences](https://github.com/spring-projects/spring-boot/pull/52528)<br>[Plain text thread dump reports threads in Object.wait() as parking on Java 19+](https://github.com/spring-projects/spring-boot/pull/52509)<br>[ECS structured logging writes empty service and service.node objects](https://github.com/spring-projects/spring-boot/pull/52495)<br>[JsonWriter writes NaN and infinite values as invalid JSON](https://github.com/spring-projects/spring-boot/pull/52477) |
 | [netdata/netdata](https://github.com/netdata/netdata) | ★ 81k | [refactor(go.d): migrate WireGuard collector to framework v2](https://github.com/netdata/netdata/pull/24584) |
 | [coder/code-server](https://github.com/coder/code-server) | ★ 80k | [Add --wait to code-server's own CLI](https://github.com/coder/code-server/pull/8117) |
 | [tw93/Mole](https://github.com/tw93/Mole) | ★ 75k | [perf(core): read protected path forms from their cache per entry](https://github.com/tw93/Mole/pull/1989) |
 
 <details>
-<summary>153 more projects</summary>
+<summary>159 more projects</summary>
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -71,6 +71,7 @@ and desktop apps.
 | [docling-project/docling](https://github.com/docling-project/docling) | ★ 71k | [perf(md): build the link TypeAdapter once](https://github.com/docling-project/docling/pull/5241) |
 | [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | ★ 68k | [fix: keep non-Latin path text in single-link scrape titles](https://github.com/Mintplex-Labs/anything-llm/pull/7025) |
 | [2dust/v2rayNG](https://github.com/2dust/v2rayNG) | ★ 66k | [fix(chain): keep proxy chain members whose remarks contain a comma](https://github.com/2dust/v2rayNG/pull/6438) |
+| [usememos/memos](https://github.com/usememos/memos) | ★ 64k | [perf(store): index attachments by memo](https://github.com/usememos/memos/pull/6536) |
 | [marktext/marktext](https://github.com/marktext/marktext) | ★ 64k | [perf(desktop): reuse one collator for sidebar natural sort](https://github.com/marktext/marktext/pull/6039) |
 | [socketio/socket.io](https://github.com/socketio/socket.io) | ★ 63k | [fix(sio-client): prevent the reconnection delay from dropping to zero](https://github.com/socketio/socket.io/pull/5582) |
 | [sharkdp/bat](https://github.com/sharkdp/bat) | ★ 61k | [Make full-path syntax mappings work on Windows](https://github.com/sharkdp/bat/pull/4113) |
@@ -82,17 +83,20 @@ and desktop apps.
 | [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) | ★ 55k | [fix: 歌词时间标签小数部分的前导零被丢掉，导致部分行延后显示](https://github.com/lyswhut/lx-music-desktop/pull/3048) |
 | [mozilla/pdf.js](https://github.com/mozilla/pdf.js) | ★ 54k | [Fix the `x 1 idiv` and `x -1 exp` simplifications in `PSStackToTree`](https://github.com/mozilla/pdf.js/pull/22438) |
 | [prettier/prettier](https://github.com/prettier/prettier) | ★ 52k | [Add tests for NO-BREAK SPACE next to CJK in Markdown](https://github.com/prettier/prettier/pull/20321) |
+| [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits) | ★ 52k | [fix: keep WebGL components rendering under React StrictMode](https://github.com/DavidHDev/react-bits/pull/1129) |
 | [google/guava](https://github.com/google/guava) | ★ 52k | [Fix `Graphs.hasCycle` missing cycles in undirected graphs](https://github.com/google/guava/pull/8796) |
 | [skylot/jadx](https://github.com/skylot/jadx) | ★ 52k | [perf(core): stop early in ProcessVariables.isAllUseAfter](https://github.com/skylot/jadx/pull/3079)<br>[fix(core): keep NaN semantics of negated float and double comparisons](https://github.com/skylot/jadx/pull/3048)<br>[fix(core): use Locale.ROOT for case conversion of names](https://github.com/skylot/jadx/pull/3037) |
 | [slidevjs/slidev](https://github.com/slidevjs/slidev) | ★ 49k | [fix(parser): ignore a leading UTF-8 BOM](https://github.com/slidevjs/slidev/pull/2802) |
-| [gogs/gogs](https://github.com/gogs/gogs) | ★ 48k | [cmd: keep the database untouched when `gogs restore` fails to move files](https://github.com/gogs/gogs/pull/8453) |
+| [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) | ★ 48k | [Docker: give the group the same access as others](https://github.com/acmesh-official/acme.sh/pull/7414) |
 | [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | ★ 48k | [fix(bash): decode Windows command output in Python's UTF-8 mode](https://github.com/zhayujie/CowAgent/pull/3897) |
-| [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) | ★ 46k | [Reset the previous icon's styles when a marker reuses its element](https://github.com/Leaflet/Leaflet/pull/10538)<br>[Apply zIndex and opacity consistently on image, video and SVG overlays](https://github.com/Leaflet/Leaflet/pull/10533) |
+| [gogs/gogs](https://github.com/gogs/gogs) | ★ 48k | [cmd: keep the database untouched when `gogs restore` fails to move files](https://github.com/gogs/gogs/pull/8453) |
+| [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) | ★ 47k | [Skip addons that don't implement an event in trigger_event](https://github.com/mitmproxy/mitmproxy/pull/8577) |
+| [Leaflet/Leaflet](https://github.com/Leaflet/Leaflet) | ★ 46k | [Only click a canvas layer that the press started on](https://github.com/Leaflet/Leaflet/pull/10588)<br>[Reset the previous icon's styles when a marker reuses its element](https://github.com/Leaflet/Leaflet/pull/10538)<br>[Apply zIndex and opacity consistently on image, video and SVG overlays](https://github.com/Leaflet/Leaflet/pull/10533) |
 | [HeyPuter/puter](https://github.com/HeyPuter/puter) | ★ 44k | [fix(install): turn off plan gates in the Windows installer config](https://github.com/HeyPuter/puter/pull/4599) |
 | [chatboxai/chatbox](https://github.com/chatboxai/chatbox) | ★ 42k | [perf: bind the query vector in knowledge base vector search](https://github.com/chatboxai/chatbox/pull/4042) |
 | [psf/black](https://github.com/psf/black) | ★ 42k | [Fix `# fmt: skip` on the last line of a multi-line conditional expression in brackets](https://github.com/psf/black/pull/5647) |
 | [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook) | ★ 42k | [fix(ui): render bold CJK text next to punctuation](https://github.com/lfnovo/open-notebook/pull/1581) |
-| [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) | ★ 41k | [fix(ui): render bold CJK text that ends in punctuation](https://github.com/linshenkx/prompt-optimizer/pull/376) |
+| [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) | ★ 42k | [fix(ui): render bold CJK text that ends in punctuation](https://github.com/linshenkx/prompt-optimizer/pull/376) |
 | [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) | ★ 41k | [fix(VDatePicker): count range days correctly across DST in header](https://github.com/vuetifyjs/vuetify/pull/23358)<br>[fix(VTextarea): keep native undo history with auto-grow](https://github.com/vuetifyjs/vuetify/pull/23279) |
 | [schollz/croc](https://github.com/schollz/croc) | ★ 41k | [fix: match --git ignore patterns against relative paths](https://github.com/schollz/croc/pull/1437) |
 | [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | ★ 41k | [db: accept a UTF-8 BOM at the start of db.txt](https://github.com/ajeetdsouza/zoxide/pull/1357) |
@@ -115,7 +119,7 @@ and desktop apps.
 | [symfony/symfony](https://github.com/symfony/symfony) | ★ 31k | [[Console] Count wide characters as two columns when wrapping and truncating](https://github.com/symfony/symfony/pull/67890) |
 | [chinabugotech/hutool](https://github.com/chinabugotech/hutool) | ★ 30k | [修复默认Locale为土耳其语时忽略大小写的Map及Month/Week/ColorUtil名称解析失效的问题](https://github.com/chinabugotech/hutool/pull/4348) |
 | [composer/composer](https://github.com/composer/composer) | ★ 30k | [Handle keys set to null in JsonManipulator](https://github.com/composer/composer/pull/13225)<br>[Keep nested objects as objects when JsonManipulator rewrites a node](https://github.com/composer/composer/pull/13210) |
-| [pydantic/pydantic](https://github.com/pydantic/pydantic) | ★ 29k | [Fix `Decimal` JSON Schema patterns accepting bare `0` when no whole digits are allowed](https://github.com/pydantic/pydantic/pull/14244) |
+| [pydantic/pydantic](https://github.com/pydantic/pydantic) | ★ 30k | [Fix `Decimal` JSON Schema patterns accepting bare `0` when no whole digits are allowed](https://github.com/pydantic/pydantic/pull/14244) |
 | [locustio/locust](https://github.com/locustio/locust) | ★ 28k | [Save a locustfile downloaded from a URL byte for byte](https://github.com/locustio/locust/pull/3577) |
 | [mobxjs/mobx](https://github.com/mobxjs/mobx) | ★ 28k | [perf(mobx): check for Object.prototype first in isPlainObject](https://github.com/mobxjs/mobx/pull/4772)<br>[fix(mobx): don't track observable set mutations in the running derivation](https://github.com/mobxjs/mobx/pull/4765) |
 | [recharts/recharts](https://github.com/recharts/recharts) | ★ 28k | [fix(ErrorBar): clip error bars with their graphical item](https://github.com/recharts/recharts/pull/8054)<br>[fix(LabelList): skip labels of elements outside the clipped domain](https://github.com/recharts/recharts/pull/8051) |
@@ -140,6 +144,7 @@ and desktop apps.
 | [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway) | ★ 20k | [openapi: look up service comments by declaration index](https://github.com/grpc-ecosystem/grpc-gateway/pull/7600) |
 | [resend/react-email](https://github.com/resend/react-email) | ★ 20k | [fix(react-email): don't leak a file handle when a static file can't be read](https://github.com/resend/react-email/pull/3812) |
 | [bytecodealliance/wasmtime](https://github.com/bytecodealliance/wasmtime) | ★ 19k | [cranelift-entity: remove unused `get_raw_mut` and `into_boxed_slice`](https://github.com/bytecodealliance/wasmtime/pull/15159) |
+| [pinojs/pino](https://github.com/pinojs/pino) | ★ 18k | [fix: omit msg when it serializes to undefined](https://github.com/pinojs/pino/pull/2548) |
 | [ImageMagick/ImageMagick](https://github.com/ImageMagick/ImageMagick) | ★ 18k | [Parse SVG path arc flags as single digits](https://github.com/ImageMagick/ImageMagick/pull/9096) |
 | [tradingview/lightweight-charts](https://github.com/tradingview/lightweight-charts) | ★ 18k | [fix: format default tick marks in UTC so DST gaps don't shift labels](https://github.com/tradingview/lightweight-charts/pull/2175) |
 | [video-dev/hls.js](https://github.com/video-dev/hls.js) | ★ 17k | [Load the start fragment again when its request is aborted before anything is buffered](https://github.com/video-dev/hls.js/pull/8115) |
@@ -177,6 +182,7 @@ and desktop apps.
 | [dbcli/mycli](https://github.com/dbcli/mycli) | ★ 12k | [Read and write default myclirc as UTF-8](https://github.com/dbcli/mycli/pull/2389) |
 | [simonw/datasette](https://github.com/simonw/datasette) | ★ 12k | [Detect FTS tables with unquoted or single-quoted content=](https://github.com/simonw/datasette/pull/3011) |
 | [foliojs/pdfkit](https://github.com/foliojs/pdfkit) | ★ 11k | [Fix a CommonJS bundle of the Node build throwing on load on Windows](https://github.com/foliojs/pdfkit/pull/1828) |
+| [MudBlazor/MudBlazor](https://github.com/MudBlazor/MudBlazor) | ★ 11k | [MudDataGrid: Keep rows when a Guid filter has no value](https://github.com/MudBlazor/MudBlazor/pull/14135) |
 | [BYVoid/OpenCC](https://github.com/BYVoid/OpenCC) | ★ 10k | [s2twp：不再將「進程」一律轉為「程序」；tw2sp 保留「行程」（#1313）](https://github.com/BYVoid/OpenCC/pull/1515)<br>[s2twp：不再將「程序」一律轉為「程式」（#1313）](https://github.com/BYVoid/OpenCC/pull/1514)<br>[tw2sp：不再將「執行」一律轉為「運行」（#1313）](https://github.com/BYVoid/OpenCC/pull/1512)<br>[s2twp：不再將「社區」一律轉為「社群」（#1313）](https://github.com/BYVoid/OpenCC/pull/1511)<br>[s2twp：不再將「支持」一律轉為「支援」（#1313）](https://github.com/BYVoid/OpenCC/pull/1510)<br>[s2twp：不再將「高級」一律轉為「高階」（#1313）](https://github.com/BYVoid/OpenCC/pull/1509) |
 | [johnkerl/miller](https://github.com/johnkerl/miller) | ★ 10k | [Find sh on the PATH when running under Git Bash or MSYS2 on Windows](https://github.com/johnkerl/miller/pull/2289)<br>[strmatchx: report starts and ends as UTF-8 character positions](https://github.com/johnkerl/miller/pull/2287) |
 | [jsx-eslint/eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) | ★ 9.3k | [[Fix] `static-property-placement`: don't report a typed `context` field](https://github.com/jsx-eslint/eslint-plugin-react/pull/4060) |
