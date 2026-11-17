@@ -6,11 +6,14 @@ import { readFile, writeFile } from 'node:fs/promises'
 
 const USER = 'b84330808'
 const README = new URL('../../README.md', import.meta.url)
+// The full table lives in its own file: with every project inline the
+// profile page grew past what GitHub renders in time and sometimes failed.
+const FULL_LIST = new URL('../../CONTRIBUTIONS.md', import.meta.url)
 const START = '<!-- contributions:start -->'
 const END = '<!-- contributions:end -->'
 // Pull requests to leave out, as owner/repo#number
 const EXCLUDE = new Set(['morr/jquery.appear#60'])
-// Projects shown in the table; the rest go into a collapsed list below it
+// Projects shown in the README; all of them are in CONTRIBUTIONS.md
 const TOP = 20
 
 const QUERY = `query ($q: String!, $after: String) {
@@ -152,30 +155,35 @@ function render(pullRequests) {
     })
 
   const header = ['| Project | Stars | Merged pull requests |', '|---|---|---|']
-  const more = rows.slice(TOP)
+  const summary = `**${pullRequests.length} merged pull requests to ${repos.size} projects**, sorted by stars.`
+  const more = rows.length - TOP
+  const allPullRequests = `https://github.com/pulls?q=is%3Apr+author%3A${USER}+is%3Amerged+-user%3A${USER}`
 
-  return [
+  const section = [
     START,
-    `**${pullRequests.length} merged pull requests to ${repos.size} projects**, sorted by stars.`,
+    summary,
     '',
     ...header,
     ...rows.slice(0, TOP),
     '',
-    ...(more.length
-      ? [
-          '<details>',
-          `<summary>${more.length} more projects</summary>`,
-          '',
-          ...header,
-          ...more,
-          '',
-          '</details>',
-          '',
-        ]
-      : []),
-    `<sub>Updated daily by a GitHub Action. [All my merged pull requests →](https://github.com/pulls?q=is%3Apr+author%3A${USER}+is%3Amerged+-user%3A${USER})</sub>`,
+    ...(more > 0 ? [`[${more} more projects in CONTRIBUTIONS.md →](CONTRIBUTIONS.md)`, ''] : []),
+    `<sub>Updated daily by a GitHub Action. [All my merged pull requests →](${allPullRequests})</sub>`,
     END,
   ].join('\n')
+
+  const fullList = [
+    '# Open source contributions',
+    '',
+    summary,
+    '',
+    ...header,
+    ...rows,
+    '',
+    `<sub>Updated daily by a GitHub Action. [All my merged pull requests →](${allPullRequests})</sub>`,
+    '',
+  ].join('\n')
+
+  return { section, fullList }
 }
 
 const readme = await readFile(README, 'utf8')
@@ -183,7 +191,7 @@ const start = readme.indexOf(START)
 const end = readme.indexOf(END)
 if (start === -1 || end === -1) throw new Error('README.md has no contributions markers')
 
-const section = render(await fetchMergedPullRequests())
+const { section, fullList } = render(await fetchMergedPullRequests())
 const updated = readme.slice(0, start) + section + readme.slice(end + END.length)
 if (updated !== readme) {
   await writeFile(README, updated)
@@ -191,3 +199,4 @@ if (updated !== readme) {
 } else {
   console.log('README.md is up to date')
 }
+await writeFile(FULL_LIST, fullList)
