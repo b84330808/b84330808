@@ -31,24 +31,33 @@ const QUERY = `query ($q: String!, $after: String) {
   }
 }`
 
-async function searchPullRequests(q) {
-  const pullRequests = []
-  let after = null
-  do {
+// The search sometimes fails with a 502 from GitHub; try again a few times.
+async function graphql(query, variables) {
+  for (let attempt = 1; ; attempt++) {
     const res = await fetch('https://api.github.com/graphql', {
       method: 'POST',
       headers: {
         Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({
-        query: QUERY,
-        variables: { q, after },
-      }),
+      body: JSON.stringify({ query, variables }),
     })
+    if (res.status >= 502 && res.status <= 504 && attempt < 4) {
+      await new Promise((resolve) => setTimeout(resolve, attempt * 5000))
+      continue
+    }
     if (!res.ok) throw new Error(`GitHub API ${res.status}: ${await res.text()}`)
     const { data, errors } = await res.json()
     if (errors) throw new Error(JSON.stringify(errors))
+    return data
+  }
+}
+
+async function searchPullRequests(q) {
+  const pullRequests = []
+  let after = null
+  do {
+    const data = await graphql(QUERY, { q, after })
     pullRequests.push(...data.search.nodes)
     const { hasNextPage, endCursor } = data.search.pageInfo
     after = hasNextPage ? endCursor : null
@@ -72,20 +81,7 @@ const myCommitCache = new Map()
 async function pullRequestHasMyCommit(owner, name, number) {
   const key = `${owner}/${name}#${number}`
   if (!myCommitCache.has(key)) {
-    const res = await fetch('https://api.github.com/graphql', {
-      method: 'POST',
-      headers: {
-        Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        query: COMMITS_QUERY,
-        variables: { owner, name, number },
-      }),
-    })
-    if (!res.ok) throw new Error(`GitHub API ${res.status}: ${await res.text()}`)
-    const { data, errors } = await res.json()
-    if (errors) throw new Error(JSON.stringify(errors))
+    const data = await graphql(COMMITS_QUERY, { owner, name, number })
     const commits = data.repository?.pullRequest?.commits?.nodes ?? []
     myCommitCache.set(
       key,
@@ -144,15 +140,21 @@ function render(pullRequests) {
     repos.get(name).pullRequests.push(pr)
   }
 
-  const rows = [...repos.values()]
-    .sort((a, b) => b.stargazerCount - a.stargazerCount)
-    .map((repo) => {
+  const sorted = [...repos.values()].sort(
+    (a, b) => b.stargazerCount - a.stargazerCount,
+  )
+  // GitHub looks up every link to a pull request to show its hovercard,
+  // which made the full list time out. Links to a pull request's /files
+  // tab get no hovercard, so CONTRIBUTIONS.md uses those.
+  const toRows = (suffix) =>
+    sorted.map((repo) => {
       const links = repo.pullRequests
         .sort((a, b) => b.mergedAt.localeCompare(a.mergedAt))
-        .map((pr) => `[${escapeCell(pr.title)}](${pr.url})`)
+        .map((pr) => `[${escapeCell(pr.title)}](${pr.url}${suffix})`)
         .join('<br>')
       return `| [${repo.nameWithOwner}](${repo.url}) | ★ ${formatStars(repo.stargazerCount)} | ${links} |`
     })
+  const rows = toRows('')
 
   const header = ['| Project | Stars | Merged pull requests |', '|---|---|---|']
   const summary = `**${pullRequests.length} merged pull requests to ${repos.size} projects**, sorted by stars.`
@@ -177,7 +179,7 @@ function render(pullRequests) {
     summary,
     '',
     ...header,
-    ...rows,
+    ...toRows('/files'),
     '',
     `<sub>Updated daily by a GitHub Action. [All my merged pull requests →](${allPullRequests})</sub>`,
     '',
