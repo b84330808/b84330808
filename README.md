@@ -35,12 +35,13 @@ and desktop apps.
 ## Open source contributions
 
 <!-- contributions:start -->
-**326 merged pull requests to 216 projects**, sorted by stars.
+**338 merged pull requests to 221 projects**, sorted by stars.
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | ★ 202k | [Fix LinearOperatorInversion.solve with an operator and adjoint=True](https://github.com/tensorflow/tensorflow/pull/129837)<br>[Fix lu_solve, lu_matrix_inverse and lu_reconstruct for batched int64 perm](https://github.com/tensorflow/tensorflow/pull/129963)<br>[Keep is_self_adjoint hint in LinearOperatorScaledIdentity.inverse()](https://github.com/tensorflow/tensorflow/pull/129948)<br>[Fix LinearOperatorPermutation.to_dense/diag_part for int64 perm](https://github.com/tensorflow/tensorflow/pull/129844) |
 | [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | ★ 191k | [fix(timer): round duration before splitting off minutes](https://github.com/ohmyzsh/ohmyzsh/pull/14246) |
+| [twbs/bootstrap](https://github.com/twbs/bootstrap) | ★ 175k | [Carousel: make the left arrow go to the next slide in RTL](https://github.com/twbs/bootstrap/pull/43264) |
 | [open-webui/open-webui](https://github.com/open-webui/open-webui) | ★ 159k | [i18n: complete zh-TW translation and replace Mainland terms](https://github.com/open-webui/open-webui/pull/32482) |
 | [github/spec-kit](https://github.com/github/spec-kit) | ★ 151k | [fix(workflows): decode code-page shell output in Python's UTF-8 mode](https://github.com/github/spec-kit/pull/5209) |
 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | ★ 145k | [perf(video): draw each composite layer only where it covers the frame](https://github.com/harry0703/MoneyPrinterTurbo/pull/1820)<br>[perf(video): composite on an opaque canvas so frames carry no mask](https://github.com/harry0703/MoneyPrinterTurbo/pull/1779) |
@@ -55,12 +56,11 @@ and desktop apps.
 | [nvm-sh/nvm](https://github.com/nvm-sh/nvm) | ★ 96k | [[Perf] `nvm_ls`: only look for a system node when the pattern can list it](https://github.com/nvm-sh/nvm/pull/3993)<br>[[Fix] `nvm_get_default_packages`: ignore CRLF line endings](https://github.com/nvm-sh/nvm/pull/3979)<br>[[Fix] `nvm_die_on_prefix`: check a nonexistent prefix on Windows](https://github.com/nvm-sh/nvm/pull/3972) |
 | [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | ★ 96k | [fix(bidi): respect waitForFonts in page.pdf()](https://github.com/puppeteer/puppeteer/pull/15714)<br>[fix(bidi): send the default accuracy in page.setGeolocation()](https://github.com/puppeteer/puppeteer/pull/15704)<br>[fix(cdp): include null and undefined in ConsoleMessage.text()](https://github.com/puppeteer/puppeteer/pull/15693)<br>[fix(bidi): make page.setCacheEnabled() enable the cache by default](https://github.com/puppeteer/puppeteer/pull/15698)<br>[fix(bidi): return domain cookies for the domain itself in page.cookies()](https://github.com/puppeteer/puppeteer/pull/15689) |
 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | ★ 91k | [fix(monitors): match keywords written in non-Latin scripts](https://github.com/koala73/worldmonitor/pull/10574) |
+| [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | ★ 89k | [fix(sse): compute the usage guard's request numbers once per stream](https://github.com/cheaper-inference/OmniRoute/pull/20108) |
 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | ★ 84k | [fix(hired-share): hand start the whole prefilled URL on Windows](https://github.com/career-ops-hq/career-ops/pull/7009) |
 | [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) | ★ 82k | [Setting management.observations.conventions to open-telemetry enables neither semantic convention](https://github.com/spring-projects/spring-boot/pull/52619)<br>[JsonWriter writes invalid JSON when usingPairs is used with a named member](https://github.com/spring-projects/spring-boot/pull/52522)<br>[BasicJsonParser does not decode \b, \f, \n, \r, \t and \uXXXX escape sequences](https://github.com/spring-projects/spring-boot/pull/52528)<br>[Plain text thread dump reports threads in Object.wait() as parking on Java 19+](https://github.com/spring-projects/spring-boot/pull/52509)<br>[ECS structured logging writes empty service and service.node objects](https://github.com/spring-projects/spring-boot/pull/52495)<br>[JsonWriter writes NaN and infinite values as invalid JSON](https://github.com/spring-projects/spring-boot/pull/52477) |
-| [netdata/netdata](https://github.com/netdata/netdata) | ★ 82k | [refactor(go.d): migrate WireGuard collector to framework v2](https://github.com/netdata/netdata/pull/24584) |
-| [coder/code-server](https://github.com/coder/code-server) | ★ 80k | [Add --wait to code-server's own CLI](https://github.com/coder/code-server/pull/8117) |
 
-[196 more projects in CONTRIBUTIONS.md →](CONTRIBUTIONS.md)
+[201 more projects in CONTRIBUTIONS.md →](CONTRIBUTIONS.md)
 
 <sub>Updated daily by a GitHub Action. [All my merged pull requests →](https://github.com/pulls?q=is%3Apr+author%3Ab84330808+is%3Amerged+-user%3Ab84330808)</sub>
 <!-- contributions:end -->
