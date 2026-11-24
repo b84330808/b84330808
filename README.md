@@ -35,7 +35,7 @@ and desktop apps.
 ## Open source contributions
 
 <!-- contributions:start -->
-**348 merged pull requests to 225 projects**, sorted by stars.
+**356 merged pull requests to 227 projects**, sorted by stars.
 
 | Project | Stars | Merged pull requests |
 |---|---|---|
@@ -48,7 +48,7 @@ and desktop apps.
 | [github/spec-kit](https://github.com/github/spec-kit) | ★ 151k | [fix(workflows): decode code-page shell output in Python's UTF-8 mode](https://github.com/github/spec-kit/pull/5209) |
 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | ★ 145k | [perf(video): fill the opaque composite background one row at a time](https://github.com/harry0703/MoneyPrinterTurbo/pull/1841)<br>[perf(video): draw each composite layer only where it covers the frame](https://github.com/harry0703/MoneyPrinterTurbo/pull/1820)<br>[perf(video): composite on an opaque canvas so frames carry no mask](https://github.com/harry0703/MoneyPrinterTurbo/pull/1779) |
 | [2dust/v2rayN](https://github.com/2dust/v2rayN) | ★ 121k | [fix(ui): show ALPN values that are not in the preset list](https://github.com/2dust/v2rayN/pull/10604)<br>[perf: look up ProfileEx items by IndexId instead of scanning the list](https://github.com/2dust/v2rayN/pull/10588)<br>[fix(fmt): keep a ':' in a Naive password through export and import](https://github.com/2dust/v2rayN/pull/10526)<br>[fix(fmt): decode the SIP002 plain-text password only once](https://github.com/2dust/v2rayN/pull/10520)<br>[fix(fmt): default the AnyTLS and Naive port to 443 when the link omits it](https://github.com/2dust/v2rayN/pull/10504)<br>[fix(fmt): import legacy base64 SOCKS links again](https://github.com/2dust/v2rayN/pull/10505) |
-| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | ★ 117k | [fix(gallery): treat an unpublished voice gallery as unavailable, not rejected](https://github.com/debpalash/VoiceStudio/pull/4260)<br>[fix(omnivoice-gguf): find the bundled runtime from a staged app environment](https://github.com/debpalash/VoiceStudio/pull/4053) |
+| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | ★ 118k | [fix(gallery): treat an unpublished voice gallery as unavailable, not rejected](https://github.com/debpalash/VoiceStudio/pull/4260)<br>[fix(omnivoice-gguf): find the bundled runtime from a staged app environment](https://github.com/debpalash/VoiceStudio/pull/4053) |
 | [tauri-apps/tauri](https://github.com/tauri-apps/tauri) | ★ 113k | [fix(utils): keep the drive prefix of absolute resource paths on Windows](https://github.com/tauri-apps/tauri/pull/16453)<br>[fix(utils): match file extensions case-insensitively in MimeType](https://github.com/tauri-apps/tauri/pull/16447)<br>[fix(utils): don't panic parsing a hex Color with non-ASCII characters](https://github.com/tauri-apps/tauri/pull/16444)<br>[fix(cli): percent-decode request paths in the builtin dev server (fix #12763)](https://github.com/tauri-apps/tauri/pull/16436) |
 | [neovim/neovim](https://github.com/neovim/neovim) | ★ 104k | [perf(treesitter): don't touch finished trees on every redraw](https://github.com/neovim/neovim/pull/42735)<br>[fix(editorconfig): "?" glob matches "/"](https://github.com/neovim/neovim/pull/42671)<br>[fix(editorconfig): invalid glob breaks other sections](https://github.com/neovim/neovim/pull/42693)<br>[fix(editorconfig): "[!seq]" glob matches seq instead of excluding it](https://github.com/neovim/neovim/pull/42648) |
 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | ★ 101k | [Preserve template namespaces before operator-> and operator->*](https://github.com/NationalSecurityAgency/ghidra/pull/10054) |
@@ -60,7 +60,7 @@ and desktop apps.
 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | ★ 91k | [fix(monitors): search the article description, which arrives as snippet](https://github.com/koala73/worldmonitor/pull/11106)<br>[fix(monitors): match keywords written in non-Latin scripts](https://github.com/koala73/worldmonitor/pull/10574) |
 | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | ★ 90k | [fix(sse): compute the usage guard's request numbers once per stream](https://github.com/cheaper-inference/OmniRoute/pull/20108) |
 
-[205 more projects in CONTRIBUTIONS.md →](CONTRIBUTIONS.md)
+[207 more projects in CONTRIBUTIONS.md →](CONTRIBUTIONS.md)
 
 <sub>Updated daily by a GitHub Action. [All my merged pull requests →](https://github.com/pulls?q=is%3Apr+author%3Ab84330808+is%3Amerged+-user%3Ab84330808)</sub>
 <!-- contributions:end -->
